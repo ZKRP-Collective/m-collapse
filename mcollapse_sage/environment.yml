@@ -1,0 +1,6 @@
+name: umbra-sage
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - sage=10.7

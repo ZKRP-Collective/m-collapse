@@ -1,0 +1,793 @@
+{
+  "aggregate": {
+    "all_correctness_checks_passed": true,
+    "exact_pair_rows_checked": 60486,
+    "median_online_work_ratio": 1.0641996557659208,
+    "median_total_work_ratio": 1.0046666333166416,
+    "online_work_win_cells": 3,
+    "subgroup_points_checked": 12726,
+    "worst_online_work_ratio": 2.4198473282442747,
+    "worst_total_work_ratio": 1.0638516992790936
+  },
+  "base_size": 12,
+  "cells": [
+    {
+      "anchor_ranks_match": true,
+      "candidate": {
+        "anchor_dependencies": 1,
+        "anchor_rank": 5,
+        "anchor_width": 12,
+        "exact_rank_audit": {
+          "anchor_matrix_rank": 5,
+          "coefficient_matrix_rank": 6,
+          "online_anchor_rank_matches": true,
+          "rhs_augmented_matrix_rank": 6,
+          "system_consistent": true,
+          "target_column_adds_rank": true
+        },
+        "processed_targets": 6,
+        "recovered_scalar": 5,
+        "relations_processed": 6,
+        "solved": true,
+        "total_with_preparation": 6198,
+        "variable_work": 634,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 2239,
+          "endomorphism": 444,
+          "point_add": 1704,
+          "point_double": 72,
+          "scalar_add": 15,
+          "scalar_double": 25,
+          "table_probe": 1699
+        }
+      },
+      "candidate_prepared": {
+        "base_size": 12,
+        "matrix_width": 13,
+        "pair_index_mode": "S2-mu6-y-fiber",
+        "predicted_pair_representatives": 1681,
+        "preparation_primitive_work": 5564,
+        "preparation_work": {
+          "coefficient_op": 2094,
+          "endomorphism": 36,
+          "point_add": 1681,
+          "point_double": 72,
+          "scalar_add": 0,
+          "scalar_double": 0,
+          "table_probe": 1681
+        },
+        "quotient_pair_representatives": 1681,
+        "raw_ordered_pair_entries": 20736,
+        "structural_compression_ratio": 12.335514574657942,
+        "weighted_terms": 144,
+        "y_buckets": 55
+      },
+      "candidate_traces_match": true,
+      "distinct_target_points": 32,
+      "fixture": {
+        "b": 21,
+        "beta": 52625,
+        "eigenvalue": 58,
+        "generator": [
+          37436,
+          7132
+        ],
+        "label": "b8-s907",
+        "n": 163,
+        "p": 88591,
+        "seed": 907,
+        "subgroup_bits": 8
+      },
+      "lookup_audit": {
+        "exact_pair_rows_checked": 10081,
+        "group_failures": 0,
+        "row_set_mismatches": 0,
+        "subgroup_points_checked": 163
+      },
+      "online_work_ratio": 2.4198473282442747,
+      "recovered_exactly": true,
+      "reference": {
+        "anchor_dependencies": 1,
+        "anchor_rank": 5,
+        "anchor_width": 12,
+        "exact_rank_audit": {
+          "anchor_matrix_rank": 5,
+          "coefficient_matrix_rank": 6,
+          "online_anchor_rank_matches": true,
+          "rhs_augmented_matrix_rank": 6,
+          "system_consistent": true,
+          "target_column_adds_rank": true
+        },
+        "processed_targets": 6,
+        "recovered_scalar": 5,
+        "relations_processed": 6,
+        "solved": true,
+        "total_with_preparation": 5826,
+        "variable_work": 262,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 2239,
+          "endomorphism": 48,
+          "point_add": 1704,
+          "point_double": 72,
+          "scalar_add": 15,
+          "scalar_double": 25,
+          "table_probe": 1723
+        }
+      },
+      "reference_prepared": {
+        "base_size": 12,
+        "matrix_width": 13,
+        "pair_index_mode": "S2-mu6-query-oriented",
+        "predicted_pair_representatives": 1681,
+        "preparation_primitive_work": 5564,
+        "preparation_work": {
+          "coefficient_op": 2094,
+          "endomorphism": 36,
+          "point_add": 1681,
+          "point_double": 72,
+          "scalar_add": 0,
+          "scalar_double": 0,
+          "table_probe": 1681
+        },
+        "quotient_pair_representatives": 1681,
+        "raw_ordered_pair_entries": 20736,
+        "structural_compression_ratio": 12.335514574657942,
+        "weighted_terms": 144
+      },
+      "target_count": 32,
+      "total_work_ratio": 1.0638516992790936
+    },
+    {
+      "anchor_ranks_match": true,
+      "candidate": {
+        "anchor_dependencies": 1,
+        "anchor_rank": 7,
+        "anchor_width": 12,
+        "exact_rank_audit": {
+          "anchor_matrix_rank": 7,
+          "coefficient_matrix_rank": 8,
+          "online_anchor_rank_matches": true,
+          "rhs_augmented_matrix_rank": 8,
+          "system_consistent": true,
+          "target_column_adds_rank": true
+        },
+        "processed_targets": 8,
+        "recovered_scalar": 385,
+        "relations_processed": 8,
+        "solved": true,
+        "total_with_preparation": 6028,
+        "variable_work": 464,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 2270,
+          "endomorphism": 208,
+          "point_add": 1710,
+          "point_double": 72,
+          "scalar_add": 19,
+          "scalar_double": 44,
+          "table_probe": 1705
+        }
+      },
+      "candidate_prepared": {
+        "base_size": 12,
+        "matrix_width": 13,
+        "pair_index_mode": "S2-mu6-y-fiber",
+        "predicted_pair_representatives": 1681,
+        "preparation_primitive_work": 5564,
+        "preparation_work": {
+          "coefficient_op": 2094,
+          "endomorphism": 36,
+          "point_add": 1681,
+          "point_double": 72,
+          "scalar_add": 0,
+          "scalar_double": 0,
+          "table_probe": 1681
+        },
+        "quotient_pair_representatives": 1681,
+        "raw_ordered_pair_entries": 20736,
+        "structural_compression_ratio": 12.335514574657942,
+        "weighted_terms": 144,
+        "y_buckets": 163
+      },
+      "candidate_traces_match": true,
+      "distinct_target_points": 32,
+      "fixture": {
+        "b": 4,
+        "beta": 22278,
+        "eigenvalue": 232,
+        "generator": [
+          33533,
+          80832
+        ],
+        "label": "b9-s911",
+        "n": 487,
+        "p": 89413,
+        "seed": 911,
+        "subgroup_bits": 9
+      },
+      "lookup_audit": {
+        "exact_pair_rows_checked": 10081,
+        "group_failures": 0,
+        "row_set_mismatches": 0,
+        "subgroup_points_checked": 487
+      },
+      "online_work_ratio": 1.3647058823529412,
+      "recovered_exactly": true,
+      "reference": {
+        "anchor_dependencies": 1,
+        "anchor_rank": 7,
+        "anchor_width": 12,
+        "exact_rank_audit": {
+          "anchor_matrix_rank": 7,
+          "coefficient_matrix_rank": 8,
+          "online_anchor_rank_matches": true,
+          "rhs_augmented_matrix_rank": 8,
+          "system_consistent": true,
+          "target_column_adds_rank": true
+        },
+        "processed_targets": 8,
+        "recovered_scalar": 385,
+        "relations_processed": 8,
+        "solved": true,
+        "total_with_preparation": 5904,
+        "variable_work": 340,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 2270,
+          "endomorphism": 52,
+          "point_add": 1710,
+          "point_double": 72,
+          "scalar_add": 19,
+          "scalar_double": 44,
+          "table_probe": 1737
+        }
+      },
+      "reference_prepared": {
+        "base_size": 12,
+        "matrix_width": 13,
+        "pair_index_mode": "S2-mu6-query-oriented",
+        "predicted_pair_representatives": 1681,
+        "preparation_primitive_work": 5564,
+        "preparation_work": {
+          "coefficient_op": 2094,
+          "endomorphism": 36,
+          "point_add": 1681,
+          "point_double": 72,
+          "scalar_add": 0,
+          "scalar_double": 0,
+          "table_probe": 1681
+        },
+        "quotient_pair_representatives": 1681,
+        "raw_ordered_pair_entries": 20736,
+        "structural_compression_ratio": 12.335514574657942,
+        "weighted_terms": 144
+      },
+      "target_count": 32,
+      "total_work_ratio": 1.0210027100271002
+    },
+    {
+      "anchor_ranks_match": true,
+      "candidate": {
+        "anchor_dependencies": 1,
+        "anchor_rank": 9,
+        "anchor_width": 12,
+        "exact_rank_audit": {
+          "anchor_matrix_rank": 9,
+          "coefficient_matrix_rank": 10,
+          "online_anchor_rank_matches": true,
+          "rhs_augmented_matrix_rank": 10,
+          "system_consistent": true,
+          "target_column_adds_rank": true
+        },
+        "processed_targets": 10,
+        "recovered_scalar": 432,
+        "relations_processed": 10,
+        "solved": true,
+        "total_with_preparation": 6060,
+        "variable_work": 496,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 2303,
+          "endomorphism": 158,
+          "point_add": 1720,
+          "point_double": 72,
+          "scalar_add": 19,
+          "scalar_double": 77,
+          "table_probe": 1711
+        }
+      },
+      "candidate_prepared": {
+        "base_size": 12,
+        "matrix_width": 13,
+        "pair_index_mode": "S2-mu6-y-fiber",
+        "predicted_pair_representatives": 1681,
+        "preparation_primitive_work": 5564,
+        "preparation_work": {
+          "coefficient_op": 2094,
+          "endomorphism": 36,
+          "point_add": 1681,
+          "point_double": 72,
+          "scalar_add": 0,
+          "scalar_double": 0,
+          "table_probe": 1681
+        },
+        "quotient_pair_representatives": 1681,
+        "raw_ordered_pair_entries": 20736,
+        "structural_compression_ratio": 12.335514574657942,
+        "weighted_terms": 144,
+        "y_buckets": 302
+      },
+      "candidate_traces_match": true,
+      "distinct_target_points": 32,
+      "fixture": {
+        "b": 3,
+        "beta": 14341,
+        "eigenvalue": 384,
+        "generator": [
+          59929,
+          84989
+        ],
+        "label": "b10-s919",
+        "n": 907,
+        "p": 91291,
+        "seed": 919,
+        "subgroup_bits": 10
+      },
+      "lookup_audit": {
+        "exact_pair_rows_checked": 10081,
+        "group_failures": 0,
+        "row_set_mismatches": 0,
+        "subgroup_points_checked": 907
+      },
+      "online_work_ratio": 1.1428571428571428,
+      "recovered_exactly": true,
+      "reference": {
+        "anchor_dependencies": 1,
+        "anchor_rank": 9,
+        "anchor_width": 12,
+        "exact_rank_audit": {
+          "anchor_matrix_rank": 9,
+          "coefficient_matrix_rank": 10,
+          "online_anchor_rank_matches": true,
+          "rhs_augmented_matrix_rank": 10,
+          "system_consistent": true,
+          "target_column_adds_rank": true
+        },
+        "processed_targets": 10,
+        "recovered_scalar": 432,
+        "relations_processed": 10,
+        "solved": true,
+        "total_with_preparation": 5998,
+        "variable_work": 434,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 2303,
+          "endomorphism": 56,
+          "point_add": 1720,
+          "point_double": 72,
+          "scalar_add": 19,
+          "scalar_double": 77,
+          "table_probe": 1751
+        }
+      },
+      "reference_prepared": {
+        "base_size": 12,
+        "matrix_width": 13,
+        "pair_index_mode": "S2-mu6-query-oriented",
+        "predicted_pair_representatives": 1681,
+        "preparation_primitive_work": 5564,
+        "preparation_work": {
+          "coefficient_op": 2094,
+          "endomorphism": 36,
+          "point_add": 1681,
+          "point_double": 72,
+          "scalar_add": 0,
+          "scalar_double": 0,
+          "table_probe": 1681
+        },
+        "quotient_pair_representatives": 1681,
+        "raw_ordered_pair_entries": 20736,
+        "structural_compression_ratio": 12.335514574657942,
+        "weighted_terms": 144
+      },
+      "target_count": 32,
+      "total_work_ratio": 1.0103367789263087
+    },
+    {
+      "anchor_ranks_match": true,
+      "candidate": {
+        "anchor_dependencies": 1,
+        "anchor_rank": 7,
+        "anchor_width": 12,
+        "exact_rank_audit": {
+          "anchor_matrix_rank": 7,
+          "coefficient_matrix_rank": 8,
+          "online_anchor_rank_matches": true,
+          "rhs_augmented_matrix_rank": 8,
+          "system_consistent": true,
+          "target_column_adds_rank": true
+        },
+        "processed_targets": 8,
+        "recovered_scalar": 1388,
+        "relations_processed": 8,
+        "solved": true,
+        "total_with_preparation": 5973,
+        "variable_work": 409,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 2287,
+          "endomorphism": 78,
+          "point_add": 1716,
+          "point_double": 72,
+          "scalar_add": 33,
+          "scalar_double": 82,
+          "table_probe": 1705
+        }
+      },
+      "candidate_prepared": {
+        "base_size": 12,
+        "matrix_width": 13,
+        "pair_index_mode": "S2-mu6-y-fiber",
+        "predicted_pair_representatives": 1681,
+        "preparation_primitive_work": 5564,
+        "preparation_work": {
+          "coefficient_op": 2094,
+          "endomorphism": 36,
+          "point_add": 1681,
+          "point_double": 72,
+          "scalar_add": 0,
+          "scalar_double": 0,
+          "table_probe": 1681
+        },
+        "quotient_pair_representatives": 1681,
+        "raw_ordered_pair_entries": 20736,
+        "structural_compression_ratio": 12.335514574657942,
+        "weighted_terms": 144,
+        "y_buckets": 607
+      },
+      "candidate_traces_match": true,
+      "distinct_target_points": 32,
+      "fixture": {
+        "b": 1,
+        "beta": 23488,
+        "eigenvalue": 1874,
+        "generator": [
+          51645,
+          50423
+        ],
+        "label": "b11-s929",
+        "n": 1951,
+        "p": 94261,
+        "seed": 929,
+        "subgroup_bits": 11
+      },
+      "lookup_audit": {
+        "exact_pair_rows_checked": 10081,
+        "group_failures": 0,
+        "row_set_mismatches": 0,
+        "subgroup_points_checked": 1951
+      },
+      "online_work_ratio": 0.9855421686746988,
+      "recovered_exactly": true,
+      "reference": {
+        "anchor_dependencies": 1,
+        "anchor_rank": 7,
+        "anchor_width": 12,
+        "exact_rank_audit": {
+          "anchor_matrix_rank": 7,
+          "coefficient_matrix_rank": 8,
+          "online_anchor_rank_matches": true,
+          "rhs_augmented_matrix_rank": 8,
+          "system_consistent": true,
+          "target_column_adds_rank": true
+        },
+        "processed_targets": 8,
+        "recovered_scalar": 1388,
+        "relations_processed": 8,
+        "solved": true,
+        "total_with_preparation": 5979,
+        "variable_work": 415,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 2287,
+          "endomorphism": 52,
+          "point_add": 1716,
+          "point_double": 72,
+          "scalar_add": 33,
+          "scalar_double": 82,
+          "table_probe": 1737
+        }
+      },
+      "reference_prepared": {
+        "base_size": 12,
+        "matrix_width": 13,
+        "pair_index_mode": "S2-mu6-query-oriented",
+        "predicted_pair_representatives": 1681,
+        "preparation_primitive_work": 5564,
+        "preparation_work": {
+          "coefficient_op": 2094,
+          "endomorphism": 36,
+          "point_add": 1681,
+          "point_double": 72,
+          "scalar_add": 0,
+          "scalar_double": 0,
+          "table_probe": 1681
+        },
+        "quotient_pair_representatives": 1681,
+        "raw_ordered_pair_entries": 20736,
+        "structural_compression_ratio": 12.335514574657942,
+        "weighted_terms": 144
+      },
+      "target_count": 32,
+      "total_work_ratio": 0.9989964877069744
+    },
+    {
+      "anchor_ranks_match": true,
+      "candidate": {
+        "anchor_dependencies": 1,
+        "anchor_rank": 9,
+        "anchor_width": 12,
+        "exact_rank_audit": {
+          "anchor_matrix_rank": 9,
+          "coefficient_matrix_rank": 10,
+          "online_anchor_rank_matches": true,
+          "rhs_augmented_matrix_rank": 10,
+          "system_consistent": true,
+          "target_column_adds_rank": true
+        },
+        "processed_targets": 10,
+        "recovered_scalar": 739,
+        "relations_processed": 10,
+        "solved": true,
+        "total_with_preparation": 6307,
+        "variable_work": 743,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 2561,
+          "endomorphism": 73,
+          "point_add": 1727,
+          "point_double": 72,
+          "scalar_add": 23,
+          "scalar_double": 138,
+          "table_probe": 1713
+        }
+      },
+      "candidate_prepared": {
+        "base_size": 12,
+        "matrix_width": 13,
+        "pair_index_mode": "S2-mu6-y-fiber",
+        "predicted_pair_representatives": 1681,
+        "preparation_primitive_work": 5564,
+        "preparation_work": {
+          "coefficient_op": 2094,
+          "endomorphism": 36,
+          "point_add": 1681,
+          "point_double": 72,
+          "scalar_add": 0,
+          "scalar_double": 0,
+          "table_probe": 1681
+        },
+        "quotient_pair_representatives": 1681,
+        "raw_ordered_pair_entries": 20736,
+        "structural_compression_ratio": 12.335514574657942,
+        "weighted_terms": 144,
+        "y_buckets": 890
+      },
+      "candidate_traces_match": true,
+      "distinct_target_points": 32,
+      "fixture": {
+        "b": 5,
+        "beta": 26669,
+        "eigenvalue": 258,
+        "generator": [
+          49417,
+          17902
+        ],
+        "label": "b12-s937",
+        "n": 3517,
+        "p": 99103,
+        "seed": 937,
+        "subgroup_bits": 12
+      },
+      "lookup_audit": {
+        "exact_pair_rows_checked": 10081,
+        "group_failures": 0,
+        "row_set_mismatches": 0,
+        "subgroup_points_checked": 3517
+      },
+      "online_work_ratio": 0.9624352331606217,
+      "recovered_exactly": true,
+      "reference": {
+        "anchor_dependencies": 1,
+        "anchor_rank": 9,
+        "anchor_width": 12,
+        "exact_rank_audit": {
+          "anchor_matrix_rank": 9,
+          "coefficient_matrix_rank": 10,
+          "online_anchor_rank_matches": true,
+          "rhs_augmented_matrix_rank": 10,
+          "system_consistent": true,
+          "target_column_adds_rank": true
+        },
+        "processed_targets": 10,
+        "recovered_scalar": 739,
+        "relations_processed": 10,
+        "solved": true,
+        "total_with_preparation": 6336,
+        "variable_work": 772,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 2561,
+          "endomorphism": 58,
+          "point_add": 1727,
+          "point_double": 72,
+          "scalar_add": 23,
+          "scalar_double": 138,
+          "table_probe": 1757
+        }
+      },
+      "reference_prepared": {
+        "base_size": 12,
+        "matrix_width": 13,
+        "pair_index_mode": "S2-mu6-query-oriented",
+        "predicted_pair_representatives": 1681,
+        "preparation_primitive_work": 5564,
+        "preparation_work": {
+          "coefficient_op": 2094,
+          "endomorphism": 36,
+          "point_add": 1681,
+          "point_double": 72,
+          "scalar_add": 0,
+          "scalar_double": 0,
+          "table_probe": 1681
+        },
+        "quotient_pair_representatives": 1681,
+        "raw_ordered_pair_entries": 20736,
+        "structural_compression_ratio": 12.335514574657942,
+        "weighted_terms": 144
+      },
+      "target_count": 32,
+      "total_work_ratio": 0.9954229797979798
+    },
+    {
+      "anchor_ranks_match": true,
+      "candidate": {
+        "anchor_dependencies": 1,
+        "anchor_rank": 9,
+        "anchor_width": 12,
+        "exact_rank_audit": {
+          "anchor_matrix_rank": 9,
+          "coefficient_matrix_rank": 10,
+          "online_anchor_rank_matches": true,
+          "rhs_augmented_matrix_rank": 10,
+          "system_consistent": true,
+          "target_column_adds_rank": true
+        },
+        "processed_targets": 10,
+        "recovered_scalar": 4939,
+        "relations_processed": 10,
+        "solved": true,
+        "total_with_preparation": 6217,
+        "variable_work": 653,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 2503,
+          "endomorphism": 54,
+          "point_add": 1732,
+          "point_double": 72,
+          "scalar_add": 38,
+          "scalar_double": 101,
+          "table_probe": 1717
+        }
+      },
+      "candidate_prepared": {
+        "base_size": 12,
+        "matrix_width": 13,
+        "pair_index_mode": "S2-mu6-y-fiber",
+        "predicted_pair_representatives": 1681,
+        "preparation_primitive_work": 5564,
+        "preparation_work": {
+          "coefficient_op": 2094,
+          "endomorphism": 36,
+          "point_add": 1681,
+          "point_double": 72,
+          "scalar_add": 0,
+          "scalar_double": 0,
+          "table_probe": 1681
+        },
+        "quotient_pair_representatives": 1681,
+        "raw_ordered_pair_entries": 20736,
+        "structural_compression_ratio": 12.335514574657942,
+        "weighted_terms": 144,
+        "y_buckets": 1164
+      },
+      "candidate_traces_match": true,
+      "distinct_target_points": 32,
+      "fixture": {
+        "b": 10,
+        "beta": 38100,
+        "eigenvalue": 75,
+        "generator": [
+          68450,
+          89272
+        ],
+        "label": "b13-s941",
+        "n": 5701,
+        "p": 107713,
+        "seed": 941,
+        "subgroup_bits": 13
+      },
+      "lookup_audit": {
+        "exact_pair_rows_checked": 10081,
+        "group_failures": 0,
+        "row_set_mismatches": 0,
+        "subgroup_points_checked": 5701
+      },
+      "online_work_ratio": 0.9158485273492286,
+      "recovered_exactly": true,
+      "reference": {
+        "anchor_dependencies": 1,
+        "anchor_rank": 9,
+        "anchor_width": 12,
+        "exact_rank_audit": {
+          "anchor_matrix_rank": 9,
+          "coefficient_matrix_rank": 10,
+          "online_anchor_rank_matches": true,
+          "rhs_augmented_matrix_rank": 10,
+          "system_consistent": true,
+          "target_column_adds_rank": true
+        },
+        "processed_targets": 10,
+        "recovered_scalar": 4939,
+        "relations_processed": 10,
+        "solved": true,
+        "total_with_preparation": 6277,
+        "variable_work": 713,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 2503,
+          "endomorphism": 62,
+          "point_add": 1732,
+          "point_double": 72,
+          "scalar_add": 38,
+          "scalar_double": 101,
+          "table_probe": 1769
+        }
+      },
+      "reference_prepared": {
+        "base_size": 12,
+        "matrix_width": 13,
+        "pair_index_mode": "S2-mu6-query-oriented",
+        "predicted_pair_representatives": 1681,
+        "preparation_primitive_work": 5564,
+        "preparation_work": {
+          "coefficient_op": 2094,
+          "endomorphism": 36,
+          "point_add": 1681,
+          "point_double": 72,
+          "scalar_add": 0,
+          "scalar_double": 0,
+          "table_probe": 1681
+        },
+        "quotient_pair_representatives": 1681,
+        "raw_ordered_pair_entries": 20736,
+        "structural_compression_ratio": 12.335514574657942,
+        "weighted_terms": 144
+      },
+      "target_count": 32,
+      "total_work_ratio": 0.9904412936115979
+    }
+  ],
+  "experiment": "SageMath preregistered y-fiber OWIC pair index",
+  "held_out_cells": 6,
+  "preregistered": true,
+  "preregistration": "Y_QUOTIENT_OWIC_PREREGISTRATION.md",
+  "promotion_gate": {
+    "passed": false,
+    "verdict": "KEEP_POINT_QUERY_ORIENTED_INDEX"
+  },
+  "sage_version": "10.7",
+  "target_count": 32
+}

@@ -1,0 +1,429 @@
+{
+  "all_exact": true,
+  "all_traces_match": true,
+  "base_sizes": [
+    4,
+    6,
+    8,
+    10,
+    12
+  ],
+  "cells": [
+    {
+      "anchor_ranks_match": true,
+      "base_size": 4,
+      "candidate": {
+        "anchor_dependencies": 1,
+        "anchor_rank": 3,
+        "anchor_width": 4,
+        "exact_rank_audit": {
+          "anchor_matrix_rank": 3,
+          "coefficient_matrix_rank": 4,
+          "online_anchor_rank_matches": true,
+          "rhs_augmented_matrix_rank": 4,
+          "system_consistent": true,
+          "target_column_adds_rank": true
+        },
+        "processed_targets": 4,
+        "recovered_scalar": 1239,
+        "relations_processed": 4,
+        "solved": true,
+        "total_with_preparation": 2715,
+        "variable_work": 231,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 2195,
+          "endomorphism": 14,
+          "point_add": 207,
+          "point_double": 24,
+          "scalar_add": 20,
+          "scalar_double": 46,
+          "table_probe": 209
+        }
+      },
+      "candidate_traces_match": true,
+      "exact": true,
+      "fixture": {
+        "b": 3,
+        "beta": 8046,
+        "eigenvalue": 2689,
+        "generator": [
+          57782,
+          57180
+        ],
+        "label": "b13-s1201",
+        "n": 4951,
+        "p": 132949,
+        "seed": 1201,
+        "subgroup_bits": 13
+      },
+      "mean_rows_per_y_bucket": 1.0411764705882354,
+      "online_work_ratio": 0.7380191693290735,
+      "reference": {
+        "anchor_dependencies": 1,
+        "anchor_rank": 3,
+        "anchor_width": 4,
+        "exact_rank_audit": {
+          "anchor_matrix_rank": 3,
+          "coefficient_matrix_rank": 4,
+          "online_anchor_rank_matches": true,
+          "rhs_augmented_matrix_rank": 4,
+          "system_consistent": true,
+          "target_column_adds_rank": true
+        },
+        "processed_targets": 4,
+        "recovered_scalar": 1239,
+        "relations_processed": 4,
+        "solved": true,
+        "total_with_preparation": 2797,
+        "variable_work": 313,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 2195,
+          "endomorphism": 40,
+          "point_add": 207,
+          "point_double": 24,
+          "scalar_add": 20,
+          "scalar_double": 46,
+          "table_probe": 265
+        }
+      },
+      "total_work_ratio": 0.9706828745084018,
+      "y_bucket_count": 170
+    },
+    {
+      "anchor_ranks_match": true,
+      "base_size": 6,
+      "candidate": {
+        "anchor_dependencies": 1,
+        "anchor_rank": 6,
+        "anchor_width": 6,
+        "exact_rank_audit": {
+          "anchor_matrix_rank": 6,
+          "coefficient_matrix_rank": 7,
+          "online_anchor_rank_matches": true,
+          "rhs_augmented_matrix_rank": 7,
+          "system_consistent": true,
+          "target_column_adds_rank": true
+        },
+        "processed_targets": 7,
+        "recovered_scalar": 1122,
+        "relations_processed": 7,
+        "solved": true,
+        "total_with_preparation": 3361,
+        "variable_work": 395,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 2248,
+          "endomorphism": 29,
+          "point_add": 462,
+          "point_double": 36,
+          "scalar_add": 27,
+          "scalar_double": 87,
+          "table_probe": 472
+        }
+      },
+      "candidate_traces_match": true,
+      "exact": true,
+      "fixture": {
+        "b": 6,
+        "beta": 9967,
+        "eigenvalue": 6503,
+        "generator": [
+          127256,
+          122888
+        ],
+        "label": "b13-s1213",
+        "n": 7027,
+        "p": 134077,
+        "seed": 1213,
+        "subgroup_bits": 13
+      },
+      "mean_rows_per_y_bucket": 1.0678851174934725,
+      "online_work_ratio": 0.7155797101449275,
+      "reference": {
+        "anchor_dependencies": 1,
+        "anchor_rank": 6,
+        "anchor_width": 6,
+        "exact_rank_audit": {
+          "anchor_matrix_rank": 6,
+          "coefficient_matrix_rank": 7,
+          "online_anchor_rank_matches": true,
+          "rhs_augmented_matrix_rank": 7,
+          "system_consistent": true,
+          "target_column_adds_rank": true
+        },
+        "processed_targets": 7,
+        "recovered_scalar": 1122,
+        "relations_processed": 7,
+        "solved": true,
+        "total_with_preparation": 3518,
+        "variable_work": 552,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 2248,
+          "endomorphism": 74,
+          "point_add": 462,
+          "point_double": 36,
+          "scalar_add": 27,
+          "scalar_double": 87,
+          "table_probe": 584
+        }
+      },
+      "total_work_ratio": 0.9553723706651507,
+      "y_bucket_count": 383
+    },
+    {
+      "anchor_ranks_match": true,
+      "base_size": 8,
+      "candidate": {
+        "anchor_dependencies": 1,
+        "anchor_rank": 6,
+        "anchor_width": 8,
+        "exact_rank_audit": {
+          "anchor_matrix_rank": 6,
+          "coefficient_matrix_rank": 7,
+          "online_anchor_rank_matches": true,
+          "rhs_augmented_matrix_rank": 7,
+          "system_consistent": true,
+          "target_column_adds_rank": true
+        },
+        "processed_targets": 7,
+        "recovered_scalar": 982,
+        "relations_processed": 7,
+        "solved": true,
+        "total_with_preparation": 4052,
+        "variable_work": 412,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 2284,
+          "endomorphism": 31,
+          "point_add": 771,
+          "point_double": 48,
+          "scalar_add": 35,
+          "scalar_double": 121,
+          "table_probe": 762
+        }
+      },
+      "candidate_traces_match": true,
+      "exact": true,
+      "fixture": {
+        "b": 2,
+        "beta": 75018,
+        "eigenvalue": 2661,
+        "generator": [
+          104950,
+          27227
+        ],
+        "label": "b13-s1217",
+        "n": 4999,
+        "p": 134839,
+        "seed": 1217,
+        "subgroup_bits": 13
+      },
+      "mean_rows_per_y_bucket": 1.1906300484652665,
+      "online_work_ratio": 0.8976034858387799,
+      "reference": {
+        "anchor_dependencies": 1,
+        "anchor_rank": 6,
+        "anchor_width": 8,
+        "exact_rank_audit": {
+          "anchor_matrix_rank": 6,
+          "coefficient_matrix_rank": 7,
+          "online_anchor_rank_matches": true,
+          "rhs_augmented_matrix_rank": 7,
+          "system_consistent": true,
+          "target_column_adds_rank": true
+        },
+        "processed_targets": 7,
+        "recovered_scalar": 982,
+        "relations_processed": 7,
+        "solved": true,
+        "total_with_preparation": 4099,
+        "variable_work": 459,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 2284,
+          "endomorphism": 42,
+          "point_add": 771,
+          "point_double": 48,
+          "scalar_add": 35,
+          "scalar_double": 121,
+          "table_probe": 798
+        }
+      },
+      "total_work_ratio": 0.9885337887289583,
+      "y_bucket_count": 619
+    },
+    {
+      "anchor_ranks_match": true,
+      "base_size": 10,
+      "candidate": {
+        "anchor_dependencies": 1,
+        "anchor_rank": 9,
+        "anchor_width": 10,
+        "exact_rank_audit": {
+          "anchor_matrix_rank": 9,
+          "coefficient_matrix_rank": 10,
+          "online_anchor_rank_matches": true,
+          "rhs_augmented_matrix_rank": 10,
+          "system_consistent": true,
+          "target_column_adds_rank": true
+        },
+        "processed_targets": 10,
+        "recovered_scalar": 3926,
+        "relations_processed": 10,
+        "solved": true,
+        "total_with_preparation": 5079,
+        "variable_work": 573,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 2437,
+          "endomorphism": 45,
+          "point_add": 1210,
+          "point_double": 60,
+          "scalar_add": 42,
+          "scalar_double": 86,
+          "table_probe": 1199
+        }
+      },
+      "candidate_traces_match": true,
+      "exact": true,
+      "fixture": {
+        "b": 4,
+        "beta": 20957,
+        "eigenvalue": 6238,
+        "generator": [
+          7478,
+          128605
+        ],
+        "label": "b13-s1223",
+        "n": 6451,
+        "p": 135019,
+        "seed": 1223,
+        "subgroup_bits": 13
+      },
+      "mean_rows_per_y_bucket": 1.274423710208562,
+      "online_work_ratio": 0.8925233644859814,
+      "reference": {
+        "anchor_dependencies": 1,
+        "anchor_rank": 9,
+        "anchor_width": 10,
+        "exact_rank_audit": {
+          "anchor_matrix_rank": 9,
+          "coefficient_matrix_rank": 10,
+          "online_anchor_rank_matches": true,
+          "rhs_augmented_matrix_rank": 10,
+          "system_consistent": true,
+          "target_column_adds_rank": true
+        },
+        "processed_targets": 10,
+        "recovered_scalar": 3926,
+        "relations_processed": 10,
+        "solved": true,
+        "total_with_preparation": 5148,
+        "variable_work": 642,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 2437,
+          "endomorphism": 58,
+          "point_add": 1210,
+          "point_double": 60,
+          "scalar_add": 42,
+          "scalar_double": 86,
+          "table_probe": 1255
+        }
+      },
+      "total_work_ratio": 0.9865967365967366,
+      "y_bucket_count": 911
+    },
+    {
+      "anchor_ranks_match": true,
+      "base_size": 12,
+      "candidate": {
+        "anchor_dependencies": 1,
+        "anchor_rank": 3,
+        "anchor_width": 12,
+        "exact_rank_audit": {
+          "anchor_matrix_rank": 3,
+          "coefficient_matrix_rank": 4,
+          "online_anchor_rank_matches": true,
+          "rhs_augmented_matrix_rank": 4,
+          "system_consistent": true,
+          "target_column_adds_rank": true
+        },
+        "processed_targets": 4,
+        "recovered_scalar": 4280,
+        "relations_processed": 4,
+        "solved": true,
+        "total_with_preparation": 5742,
+        "variable_work": 178,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 2197,
+          "endomorphism": 42,
+          "point_add": 1700,
+          "point_double": 72,
+          "scalar_add": 7,
+          "scalar_double": 31,
+          "table_probe": 1693
+        }
+      },
+      "candidate_traces_match": true,
+      "exact": true,
+      "fixture": {
+        "b": 3,
+        "beta": 8076,
+        "eigenvalue": 80,
+        "generator": [
+          8847,
+          126899
+        ],
+        "label": "b13-s1229",
+        "n": 6481,
+        "p": 135613,
+        "seed": 1229,
+        "subgroup_bits": 13
+      },
+      "mean_rows_per_y_bucket": 1.4114189756507136,
+      "online_work_ratio": 0.9081632653061225,
+      "reference": {
+        "anchor_dependencies": 1,
+        "anchor_rank": 3,
+        "anchor_width": 12,
+        "exact_rank_audit": {
+          "anchor_matrix_rank": 3,
+          "coefficient_matrix_rank": 4,
+          "online_anchor_rank_matches": true,
+          "rhs_augmented_matrix_rank": 4,
+          "system_consistent": true,
+          "target_column_adds_rank": true
+        },
+        "processed_targets": 4,
+        "recovered_scalar": 4280,
+        "relations_processed": 4,
+        "solved": true,
+        "total_with_preparation": 5760,
+        "variable_work": 196,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 2197,
+          "endomorphism": 44,
+          "point_add": 1700,
+          "point_double": 72,
+          "scalar_add": 7,
+          "scalar_double": 31,
+          "table_probe": 1709
+        }
+      },
+      "total_work_ratio": 0.996875,
+      "y_bucket_count": 1191
+    }
+  ],
+  "experiment": "Exploratory exact y-fiber OWIC bucket-density crossover audit",
+  "online_win_cells": 5,
+  "preregistered": false,
+  "sage_version": "10.7",
+  "target_count": 32,
+  "verdict": "MEASURE_Y_QUOTIENT_ON_LARGER_CLASSIC_FIXTURES"
+}

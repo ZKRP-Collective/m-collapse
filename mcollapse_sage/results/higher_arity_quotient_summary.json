@@ -1,0 +1,227 @@
+{
+  "anchor_count": 12,
+  "catalogs": {
+    "arity-4": {
+      "anchor_count": 12,
+      "commutative_term_multisets": 508080,
+      "commutative_to_quotient_ratio": 6.80479474988281,
+      "exact_quotient_rows": 74665,
+      "generated_count_matches": true,
+      "generated_rows": 74665,
+      "local_class_counts": {
+        "0": 1,
+        "1": 18,
+        "2": 168,
+        "3": 288
+      },
+      "ordered_partial_tuples": 2985984,
+      "ordered_to_quotient_ratio": 39.9917498158441,
+      "partial_arity": 3,
+      "relation_arity": 4,
+      "row_stream_sha256": "e2929a528ba2ef3c6ad11919269569c29a836dedf655799a56eb644bee41c8fc",
+      "weighted_terms": 144,
+      "witness_failures": 0
+    },
+    "arity-5": {
+      "anchor_count": 12,
+      "commutative_term_multisets": 18671940,
+      "commutative_to_quotient_ratio": 7.825988551856352,
+      "exact_quotient_rows": 2385889,
+      "generated_count_matches": true,
+      "generated_rows": 2385889,
+      "local_class_counts": {
+        "0": 1,
+        "1": 32,
+        "2": 624,
+        "3": 2880,
+        "4": 3456
+      },
+      "ordered_partial_tuples": 429981696,
+      "ordered_to_quotient_ratio": 180.21865057427232,
+      "partial_arity": 4,
+      "relation_arity": 5,
+      "row_stream_sha256": "673f244a39f4a67d08f4ae2c97a8c01d4dbc946bfe2bb79704b65469cd5a3c02",
+      "weighted_terms": 144,
+      "witness_failures": 0
+    }
+  },
+  "coefficient_ring": "ZZ[lambda]/(lambda^2+lambda+1)",
+  "decision": {
+    "exact_catalogs_generated": true,
+    "materialize_arity_4_partial_table": false,
+    "materialize_arity_5_partial_table": false,
+    "next_generator": "balanced pair+pair and pair+pair+term using the 1681-class pair quotient"
+  },
+  "experiment": "SageMath higher-arity Eisenstein OWIC quotient generation",
+  "finite_field_held_out": [
+    {
+      "catalogs": {
+        "arity-4": {
+          "finite_field_rows": 2233,
+          "generic_rows_at_four_anchors": 2233,
+          "modular_collisions": 0
+        },
+        "arity-5": {
+          "finite_field_rows": 18793,
+          "generic_rows_at_four_anchors": 18849,
+          "modular_collisions": 56
+        }
+      },
+      "fixture": {
+        "b": 2,
+        "beta": 30435,
+        "eigenvalue": 63,
+        "generator": [
+          19653,
+          22783
+        ],
+        "label": "b7-s331",
+        "n": 109,
+        "p": 32563,
+        "seed": 331,
+        "subgroup_bits": 7
+      }
+    },
+    {
+      "catalogs": {
+        "arity-4": {
+          "finite_field_rows": 2233,
+          "generic_rows_at_four_anchors": 2233,
+          "modular_collisions": 0
+        },
+        "arity-5": {
+          "finite_field_rows": 18849,
+          "generic_rows_at_four_anchors": 18849,
+          "modular_collisions": 0
+        }
+      },
+      "fixture": {
+        "b": 4,
+        "beta": 3228,
+        "eigenvalue": 94,
+        "generator": [
+          20254,
+          6191
+        ],
+        "label": "b8-s337",
+        "n": 229,
+        "p": 33301,
+        "seed": 337,
+        "subgroup_bits": 8
+      }
+    },
+    {
+      "catalogs": {
+        "arity-4": {
+          "finite_field_rows": 2233,
+          "generic_rows_at_four_anchors": 2233,
+          "modular_collisions": 0
+        },
+        "arity-5": {
+          "finite_field_rows": 18849,
+          "generic_rows_at_four_anchors": 18849,
+          "modular_collisions": 0
+        }
+      },
+      "fixture": {
+        "b": 11,
+        "beta": 33424,
+        "eigenvalue": 289,
+        "generator": [
+          27795,
+          33039
+        ],
+        "label": "b9-s347",
+        "n": 307,
+        "p": 34729,
+        "seed": 347,
+        "subgroup_bits": 9
+      }
+    },
+    {
+      "catalogs": {
+        "arity-4": {
+          "finite_field_rows": 2233,
+          "generic_rows_at_four_anchors": 2233,
+          "modular_collisions": 0
+        },
+        "arity-5": {
+          "finite_field_rows": 18849,
+          "generic_rows_at_four_anchors": 18849,
+          "modular_collisions": 0
+        }
+      },
+      "fixture": {
+        "b": 2,
+        "beta": 14456,
+        "eigenvalue": 109,
+        "generator": [
+          5036,
+          18875
+        ],
+        "label": "b10-s349",
+        "n": 571,
+        "p": 35977,
+        "seed": 349,
+        "subgroup_bits": 10
+      }
+    },
+    {
+      "catalogs": {
+        "arity-4": {
+          "finite_field_rows": 2233,
+          "generic_rows_at_four_anchors": 2233,
+          "modular_collisions": 0
+        },
+        "arity-5": {
+          "finite_field_rows": 18849,
+          "generic_rows_at_four_anchors": 18849,
+          "modular_collisions": 0
+        }
+      },
+      "fixture": {
+        "b": 2,
+        "beta": 16808,
+        "eigenvalue": 93,
+        "generator": [
+          12028,
+          1688
+        ],
+        "label": "b11-s353",
+        "n": 1249,
+        "p": 38371,
+        "seed": 353,
+        "subgroup_bits": 11
+      }
+    },
+    {
+      "catalogs": {
+        "arity-4": {
+          "finite_field_rows": 2233,
+          "generic_rows_at_four_anchors": 2233,
+          "modular_collisions": 0
+        },
+        "arity-5": {
+          "finite_field_rows": 18849,
+          "generic_rows_at_four_anchors": 18849,
+          "modular_collisions": 0
+        }
+      },
+      "fixture": {
+        "b": 1,
+        "beta": 31162,
+        "eigenvalue": 2123,
+        "generator": [
+          32727,
+          34143
+        ],
+        "label": "b12-s359",
+        "n": 3559,
+        "p": 43051,
+        "seed": 359,
+        "subgroup_bits": 12
+      }
+    }
+  ],
+  "sage_version": "10.7"
+}

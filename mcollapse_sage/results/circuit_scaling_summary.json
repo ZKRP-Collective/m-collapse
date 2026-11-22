@@ -1,0 +1,130 @@
+{
+  "aggregate": {
+    "all_exact": true,
+    "log_log_relation_slope": 0.9204359097090395
+  },
+  "cells": [
+    {
+      "exact_recoveries": 64,
+      "maximum_relations": 9,
+      "median_anchor_rank": 8,
+      "median_rank_over_m": 1,
+      "median_relations": 9,
+      "median_relations_over_m": {
+        "denominator": 8,
+        "numerator": 9
+      },
+      "minimum_relations": 6,
+      "solved": 64,
+      "trials": 64,
+      "width": 8
+    },
+    {
+      "exact_recoveries": 64,
+      "maximum_relations": 13,
+      "median_anchor_rank": 12,
+      "median_rank_over_m": 1,
+      "median_relations": 13,
+      "median_relations_over_m": {
+        "denominator": 12,
+        "numerator": 13
+      },
+      "minimum_relations": 11,
+      "solved": 64,
+      "trials": 64,
+      "width": 12
+    },
+    {
+      "exact_recoveries": 64,
+      "maximum_relations": 17,
+      "median_anchor_rank": 15,
+      "median_rank_over_m": {
+        "denominator": 16,
+        "numerator": 15
+      },
+      "median_relations": 16,
+      "median_relations_over_m": 1,
+      "minimum_relations": 14,
+      "solved": 64,
+      "trials": 64,
+      "width": 16
+    },
+    {
+      "exact_recoveries": 64,
+      "maximum_relations": 25,
+      "median_anchor_rank": 23,
+      "median_rank_over_m": {
+        "denominator": 24,
+        "numerator": 23
+      },
+      "median_relations": 24,
+      "median_relations_over_m": 1,
+      "minimum_relations": 19,
+      "solved": 64,
+      "trials": 64,
+      "width": 24
+    },
+    {
+      "exact_recoveries": 64,
+      "maximum_relations": 33,
+      "median_anchor_rank": 30,
+      "median_rank_over_m": {
+        "denominator": 16,
+        "numerator": 15
+      },
+      "median_relations": 31,
+      "median_relations_over_m": {
+        "denominator": 32,
+        "numerator": 31
+      },
+      "minimum_relations": 24,
+      "solved": 64,
+      "trials": 64,
+      "width": 32
+    },
+    {
+      "exact_recoveries": 64,
+      "maximum_relations": 49,
+      "median_anchor_rank": 45,
+      "median_rank_over_m": {
+        "denominator": 16,
+        "numerator": 15
+      },
+      "median_relations": 46,
+      "median_relations_over_m": {
+        "denominator": 24,
+        "numerator": 23
+      },
+      "minimum_relations": 40,
+      "solved": 64,
+      "trials": 64,
+      "width": 48
+    },
+    {
+      "exact_recoveries": 64,
+      "maximum_relations": 64,
+      "median_anchor_rank": 60,
+      "median_rank_over_m": {
+        "denominator": 16,
+        "numerator": 15
+      },
+      "median_relations": 61,
+      "median_relations_over_m": {
+        "denominator": 64,
+        "numerator": 61
+      },
+      "minimum_relations": 55,
+      "solved": 64,
+      "trials": 64,
+      "width": 64
+    }
+  ],
+  "experiment": "Preregistered Circuit-OWIC relation-count scaling",
+  "preregistered": true,
+  "preregistration": "CIRCUIT_SCALING_PREREGISTRATION.md",
+  "sage_version": 10.7,
+  "scalar_field": "GF(secp256k1 subgroup order)",
+  "support_size": 3,
+  "trials_per_cell": 64,
+  "verdict": "REJECT_SUBLINEAR_CIRCUIT_COUNT_HYPOTHESIS"
+}

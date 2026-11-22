@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "name": "h1_h3_v1",
+  "subgroup_bits": [12, 14, 16],
+  "fixture_seeds": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+  "factor_base_budgets": [8, 16, 32],
+  "arities": [2, 3],
+  "budget_types": ["equal-raw", "equal-unknowns", "equal-work"],
+  "targets_per_cell": 10000,
+  "candidate_limit": 10000,
+  "bootstrap_iterations": 10000,
+  "bootstrap_seed": 20260804,
+  "calibration_weights": {
+    "fp_mul": 1.0,
+    "fp_square": 0.8,
+    "fp_inv": 80.0,
+    "point_add": 0.0,
+    "point_double": 0.0,
+    "endomorphism": 0.0,
+    "table_probe": 0.1,
+    "normalization": 0.05
+  }
+}

@@ -1,0 +1,982 @@
+{
+  "aggregate": {
+    "all_balanced_solvers_full_rank": true,
+    "all_cells_nonempty": true,
+    "all_phase_counts_exact": true,
+    "all_prefixes_reach_target_rank_cap": true,
+    "arity_4_relations_total": 2655,
+    "arity_5_relations_total": 15264,
+    "exploratory_arity_4_online_ratio_median": 0.5750227531285552,
+    "exploratory_arity_4_total_ratio_max": 0.9889286877238684,
+    "exploratory_arity_4_total_ratio_median": 0.9633589006072227,
+    "exploratory_arity_5_online_ratio_median": 0.6720274914089347,
+    "exploratory_arity_5_total_ratio_max": 0.9905568218821231,
+    "exploratory_arity_5_total_ratio_median": 0.9758901045191368,
+    "group_failures": 0,
+    "storage_beats_full_partial_controls": true
+  },
+  "base_size": 4,
+  "cells": [
+    {
+      "arity_3_reference": {
+        "matrix_width": 5,
+        "online_work_to_full_rank": 237,
+        "processed_targets": 2,
+        "rank": 5,
+        "total_work_to_full_rank": 3071
+      },
+      "expected_exact_pair_rows": 1057,
+      "fixture": {
+        "b": 3,
+        "beta": 29183,
+        "eigenvalue": 8,
+        "generator": [
+          2275,
+          10312
+        ],
+        "label": "b7-s401",
+        "n": 73,
+        "p": 39199,
+        "seed": 401,
+        "subgroup_bits": 7
+      },
+      "full_partial_controls": {
+        "arity-4": 2233,
+        "arity-5": 18849
+      },
+      "prepared": {
+        "base_size": 4,
+        "matrix_width": 5,
+        "pair_index_mode": "S2-mu6-exact-quotient",
+        "predicted_pair_representatives": 177,
+        "preparation_primitive_work": 2834,
+        "preparation_work": {
+          "coefficient_op": 2094,
+          "endomorphism": 362,
+          "point_add": 177,
+          "point_double": 24,
+          "scalar_add": 0,
+          "scalar_double": 0,
+          "table_probe": 177
+        },
+        "quotient_pair_representatives": 177,
+        "raw_ordered_pair_entries": 2304,
+        "structural_compression_ratio": 13.016949152542374,
+        "weighted_terms": 48
+      },
+      "results": {
+        "4": {
+          "primitive_work": 47127,
+          "relation_arity": 4,
+          "relation_count": 1471,
+          "row_sha256": "c3a6203857c5fe0c39d3961fd6aa181b298ab51954815e9c53309e1afc90e41a",
+          "saturated_prefix": {
+            "complement_lookups": 1,
+            "generation_work": 60,
+            "rank": 4,
+            "rank_cap": 4,
+            "rank_coefficient_work": 110,
+            "relation_limit": 16,
+            "relations_generated": 7,
+            "relations_to_rank_cap": 7,
+            "total_with_pair_preparation": 3004
+          },
+          "solver_to_full_rank": {
+            "complement_lookups": 2,
+            "generation_work": 72,
+            "matrix_width": 5,
+            "online_vs_arity_3_ratio": 0.8565400843881856,
+            "online_work": 203,
+            "processed_targets": 2,
+            "rank": 5,
+            "rank_coefficient_work": 131,
+            "relations_used": 8,
+            "total_vs_arity_3_ratio": 0.9889286877238684,
+            "total_with_pair_preparation": 3037
+          },
+          "stats": {
+            "complement_lookups": 1057,
+            "duplicate_full_rows": 6227,
+            "exact_pair_rows": 1057,
+            "group_failures": 0,
+            "pair_hits": 15382,
+            "pair_order_rejections": 7684,
+            "unique_full_rows": 1471
+          },
+          "total_with_pair_preparation": 49961,
+          "work": {
+            "coefficient_op": 30792,
+            "endomorphism": 2110,
+            "point_add": 5470,
+            "point_double": 0,
+            "scalar_add": 0,
+            "scalar_double": 0,
+            "table_probe": 8755
+          }
+        },
+        "5": {
+          "primitive_work": 2491004,
+          "relation_arity": 5,
+          "relation_count": 8132,
+          "row_sha256": "a3cf7b1cda481e339c998aa27ac33d6ec114a01d3347468cd3aae7757b521b98",
+          "saturated_prefix": {
+            "complement_lookups": 1,
+            "generation_work": 95,
+            "rank": 4,
+            "rank_cap": 4,
+            "rank_coefficient_work": 85,
+            "relation_limit": 16,
+            "relations_generated": 9,
+            "relations_to_rank_cap": 9,
+            "total_with_pair_preparation": 3014
+          },
+          "solver_to_full_rank": {
+            "complement_lookups": 2,
+            "generation_work": 110,
+            "matrix_width": 5,
+            "online_vs_arity_3_ratio": 0.8776371308016878,
+            "online_work": 208,
+            "processed_targets": 2,
+            "rank": 5,
+            "rank_coefficient_work": 98,
+            "relations_used": 10,
+            "total_vs_arity_3_ratio": 0.9905568218821231,
+            "total_with_pair_preparation": 3042
+          },
+          "stats": {
+            "complement_lookups": 50736,
+            "duplicate_full_rows": 359564,
+            "exact_pair_rows": 1057,
+            "group_failures": 0,
+            "pair_hits": 734714,
+            "pair_order_rejections": 367018,
+            "unique_full_rows": 8132
+          },
+          "total_with_pair_preparation": 2493838,
+          "work": {
+            "coefficient_op": 1838480,
+            "endomorphism": 100092,
+            "point_add": 134000,
+            "point_double": 0,
+            "scalar_add": 0,
+            "scalar_double": 0,
+            "table_probe": 418432
+          }
+        }
+      },
+      "stored_pair_representatives": 177,
+      "streamed_exact_pair_rows": 1057,
+      "target": {
+        "index": 0,
+        "point": [
+          21144,
+          31330
+        ],
+        "u": 28,
+        "v": 56
+      }
+    },
+    {
+      "arity_3_reference": {
+        "matrix_width": 5,
+        "online_work_to_full_rank": 194,
+        "processed_targets": 2,
+        "rank": 5,
+        "total_work_to_full_rank": 3030
+      },
+      "expected_exact_pair_rows": 1057,
+      "fixture": {
+        "b": 2,
+        "beta": 22399,
+        "eigenvalue": 108,
+        "generator": [
+          24207,
+          23695
+        ],
+        "label": "b8-s409",
+        "n": 193,
+        "p": 40213,
+        "seed": 409,
+        "subgroup_bits": 8
+      },
+      "full_partial_controls": {
+        "arity-4": 2233,
+        "arity-5": 18849
+      },
+      "prepared": {
+        "base_size": 4,
+        "matrix_width": 5,
+        "pair_index_mode": "S2-mu6-exact-quotient",
+        "predicted_pair_representatives": 177,
+        "preparation_primitive_work": 2836,
+        "preparation_work": {
+          "coefficient_op": 2094,
+          "endomorphism": 364,
+          "point_add": 177,
+          "point_double": 24,
+          "scalar_add": 0,
+          "scalar_double": 0,
+          "table_probe": 177
+        },
+        "quotient_pair_representatives": 177,
+        "raw_ordered_pair_entries": 2304,
+        "structural_compression_ratio": 13.016949152542374,
+        "weighted_terms": 48
+      },
+      "results": {
+        "4": {
+          "primitive_work": 20323,
+          "relation_arity": 4,
+          "relation_count": 583,
+          "row_sha256": "01053bd39e2d125a7eccab135f885d37b2c469becdf160e3d2baa640e9c8fc85",
+          "saturated_prefix": {
+            "complement_lookups": 1,
+            "generation_work": 36,
+            "rank": 4,
+            "rank_cap": 4,
+            "rank_coefficient_work": 32,
+            "relation_limit": 16,
+            "relations_generated": 4,
+            "relations_to_rank_cap": 4,
+            "total_with_pair_preparation": 2904
+          },
+          "solver_to_full_rank": {
+            "complement_lookups": 2,
+            "generation_work": 48,
+            "matrix_width": 5,
+            "online_vs_arity_3_ratio": 0.4793814432989691,
+            "online_work": 93,
+            "processed_targets": 2,
+            "rank": 5,
+            "rank_coefficient_work": 45,
+            "relations_used": 5,
+            "total_vs_arity_3_ratio": 0.9666666666666667,
+            "total_with_pair_preparation": 2929
+          },
+          "stats": {
+            "complement_lookups": 1057,
+            "duplicate_full_rows": 2275,
+            "exact_pair_rows": 1057,
+            "group_failures": 0,
+            "pair_hits": 5712,
+            "pair_order_rejections": 2854,
+            "unique_full_rows": 583
+          },
+          "total_with_pair_preparation": 23159,
+          "work": {
+            "coefficient_op": 11432,
+            "endomorphism": 2170,
+            "point_add": 2806,
+            "point_double": 0,
+            "scalar_add": 0,
+            "scalar_double": 0,
+            "table_probe": 3915
+          }
+        },
+        "5": {
+          "primitive_work": 1103738,
+          "relation_arity": 5,
+          "relation_count": 3662,
+          "row_sha256": "65f739cce3cdad22b7f096bf0f92fc67b2adc402735dbee85c913094c39bc1ab",
+          "saturated_prefix": {
+            "complement_lookups": 1,
+            "generation_work": 55,
+            "rank": 4,
+            "rank_cap": 4,
+            "rank_coefficient_work": 51,
+            "relation_limit": 16,
+            "relations_generated": 5,
+            "relations_to_rank_cap": 5,
+            "total_with_pair_preparation": 2942
+          },
+          "solver_to_full_rank": {
+            "complement_lookups": 2,
+            "generation_work": 70,
+            "matrix_width": 5,
+            "online_vs_arity_3_ratio": 0.6907216494845361,
+            "online_work": 134,
+            "processed_targets": 2,
+            "rank": 5,
+            "rank_coefficient_work": 64,
+            "relations_used": 6,
+            "total_vs_arity_3_ratio": 0.9801980198019802,
+            "total_with_pair_preparation": 2970
+          },
+          "stats": {
+            "complement_lookups": 50736,
+            "duplicate_full_rows": 135651,
+            "exact_pair_rows": 1057,
+            "group_failures": 0,
+            "pair_hits": 278377,
+            "pair_order_rejections": 139064,
+            "unique_full_rows": 3662
+          },
+          "total_with_pair_preparation": 1106574,
+          "work": {
+            "coefficient_op": 696565,
+            "endomorphism": 101004,
+            "point_add": 116120,
+            "point_double": 0,
+            "scalar_add": 0,
+            "scalar_double": 0,
+            "table_probe": 190049
+          }
+        }
+      },
+      "stored_pair_representatives": 177,
+      "streamed_exact_pair_rows": 1057,
+      "target": {
+        "index": 0,
+        "point": [
+          15175,
+          17785
+        ],
+        "u": 16,
+        "v": 96
+      }
+    },
+    {
+      "arity_3_reference": {
+        "matrix_width": 5,
+        "online_work_to_full_rank": 284,
+        "processed_targets": 2,
+        "rank": 5,
+        "total_work_to_full_rank": 3120
+      },
+      "expected_exact_pair_rows": 1057,
+      "fixture": {
+        "b": 12,
+        "beta": 21327,
+        "eigenvalue": 133,
+        "generator": [
+          27205,
+          14025
+        ],
+        "label": "b9-s419",
+        "n": 457,
+        "p": 41719,
+        "seed": 419,
+        "subgroup_bits": 9
+      },
+      "full_partial_controls": {
+        "arity-4": 2233,
+        "arity-5": 18849
+      },
+      "prepared": {
+        "base_size": 4,
+        "matrix_width": 5,
+        "pair_index_mode": "S2-mu6-exact-quotient",
+        "predicted_pair_representatives": 177,
+        "preparation_primitive_work": 2836,
+        "preparation_work": {
+          "coefficient_op": 2094,
+          "endomorphism": 364,
+          "point_add": 177,
+          "point_double": 24,
+          "scalar_add": 0,
+          "scalar_double": 0,
+          "table_probe": 177
+        },
+        "quotient_pair_representatives": 177,
+        "raw_ordered_pair_entries": 2304,
+        "structural_compression_ratio": 13.016949152542374,
+        "weighted_terms": 48
+      },
+      "results": {
+        "4": {
+          "primitive_work": 11270,
+          "relation_arity": 4,
+          "relation_count": 255,
+          "row_sha256": "0e75dfccee468bad6633749391262c045781796dcf47131da577fdbfbe322fe2",
+          "saturated_prefix": {
+            "complement_lookups": 2,
+            "generation_work": 42,
+            "rank": 4,
+            "rank_cap": 4,
+            "rank_coefficient_work": 59,
+            "relation_limit": 16,
+            "relations_generated": 4,
+            "relations_to_rank_cap": 4,
+            "total_with_pair_preparation": 2937
+          },
+          "solver_to_full_rank": {
+            "complement_lookups": 3,
+            "generation_work": 54,
+            "matrix_width": 5,
+            "online_vs_arity_3_ratio": 0.4507042253521127,
+            "online_work": 128,
+            "processed_targets": 2,
+            "rank": 5,
+            "rank_coefficient_work": 74,
+            "relations_used": 5,
+            "total_vs_arity_3_ratio": 0.95,
+            "total_with_pair_preparation": 2964
+          },
+          "stats": {
+            "complement_lookups": 1057,
+            "duplicate_full_rows": 974,
+            "exact_pair_rows": 1057,
+            "group_failures": 0,
+            "pair_hits": 2456,
+            "pair_order_rejections": 1227,
+            "unique_full_rows": 255
+          },
+          "total_with_pair_preparation": 14106,
+          "work": {
+            "coefficient_op": 4916,
+            "endomorphism": 2246,
+            "point_add": 1822,
+            "point_double": 0,
+            "scalar_add": 0,
+            "scalar_double": 0,
+            "table_probe": 2286
+          }
+        },
+        "5": {
+          "primitive_work": 612124,
+          "relation_arity": 5,
+          "relation_count": 1487,
+          "row_sha256": "c0535f3748089fa08235ba1e05d16b30cb1c9f57c9f4e050f106eb4af6300525",
+          "saturated_prefix": {
+            "complement_lookups": 2,
+            "generation_work": 70,
+            "rank": 4,
+            "rank_cap": 4,
+            "rank_coefficient_work": 110,
+            "relation_limit": 16,
+            "relations_generated": 6,
+            "relations_to_rank_cap": 6,
+            "total_with_pair_preparation": 3016
+          },
+          "solver_to_full_rank": {
+            "complement_lookups": 3,
+            "generation_work": 85,
+            "matrix_width": 5,
+            "online_vs_arity_3_ratio": 0.7816901408450704,
+            "online_work": 222,
+            "processed_targets": 2,
+            "rank": 5,
+            "rank_coefficient_work": 137,
+            "relations_used": 7,
+            "total_vs_arity_3_ratio": 0.9801282051282051,
+            "total_with_pair_preparation": 3058
+          },
+          "stats": {
+            "complement_lookups": 50736,
+            "duplicate_full_rows": 57276,
+            "exact_pair_rows": 1057,
+            "group_failures": 0,
+            "pair_hits": 117417,
+            "pair_order_rejections": 58654,
+            "unique_full_rows": 1487
+          },
+          "total_with_pair_preparation": 614960,
+          "work": {
+            "coefficient_op": 293815,
+            "endomorphism": 101390,
+            "point_add": 107420,
+            "point_double": 0,
+            "scalar_add": 0,
+            "scalar_double": 0,
+            "table_probe": 109499
+          }
+        }
+      },
+      "stored_pair_representatives": 177,
+      "streamed_exact_pair_rows": 1057,
+      "target": {
+        "index": 0,
+        "point": [
+          29465,
+          9687
+        ],
+        "u": 52,
+        "v": 182
+      }
+    },
+    {
+      "arity_3_reference": {
+        "matrix_width": 5,
+        "online_work_to_full_rank": 233,
+        "processed_targets": 2,
+        "rank": 5,
+        "total_work_to_full_rank": 3069
+      },
+      "expected_exact_pair_rows": 1057,
+      "fixture": {
+        "b": 5,
+        "beta": 21724,
+        "eigenvalue": 109,
+        "generator": [
+          19045,
+          16547
+        ],
+        "label": "b10-s421",
+        "n": 571,
+        "p": 42901,
+        "seed": 421,
+        "subgroup_bits": 10
+      },
+      "full_partial_controls": {
+        "arity-4": 2233,
+        "arity-5": 18849
+      },
+      "prepared": {
+        "base_size": 4,
+        "matrix_width": 5,
+        "pair_index_mode": "S2-mu6-exact-quotient",
+        "predicted_pair_representatives": 177,
+        "preparation_primitive_work": 2836,
+        "preparation_work": {
+          "coefficient_op": 2094,
+          "endomorphism": 364,
+          "point_add": 177,
+          "point_double": 24,
+          "scalar_add": 0,
+          "scalar_double": 0,
+          "table_probe": 177
+        },
+        "quotient_pair_representatives": 177,
+        "raw_ordered_pair_entries": 2304,
+        "structural_compression_ratio": 13.016949152542374,
+        "weighted_terms": 48
+      },
+      "results": {
+        "4": {
+          "primitive_work": 10112,
+          "relation_arity": 4,
+          "relation_count": 206,
+          "row_sha256": "0a1d33c496428a0dff09305c313dc9e4a24ac466a55170d2f7a4b418766e4f45",
+          "saturated_prefix": {
+            "complement_lookups": 2,
+            "generation_work": 55,
+            "rank": 4,
+            "rank_cap": 4,
+            "rank_coefficient_work": 61,
+            "relation_limit": 16,
+            "relations_generated": 5,
+            "relations_to_rank_cap": 5,
+            "total_with_pair_preparation": 2952
+          },
+          "solver_to_full_rank": {
+            "complement_lookups": 3,
+            "generation_work": 67,
+            "matrix_width": 5,
+            "online_vs_arity_3_ratio": 0.6394849785407726,
+            "online_work": 149,
+            "processed_targets": 2,
+            "rank": 5,
+            "rank_coefficient_work": 82,
+            "relations_used": 6,
+            "total_vs_arity_3_ratio": 0.9726295210166178,
+            "total_with_pair_preparation": 2985
+          },
+          "stats": {
+            "complement_lookups": 1057,
+            "duplicate_full_rows": 816,
+            "exact_pair_rows": 1057,
+            "group_failures": 0,
+            "pair_hits": 2041,
+            "pair_order_rejections": 1019,
+            "unique_full_rows": 206
+          },
+          "total_with_pair_preparation": 12948,
+          "work": {
+            "coefficient_op": 4088,
+            "endomorphism": 2270,
+            "point_add": 1675,
+            "point_double": 0,
+            "scalar_add": 0,
+            "scalar_double": 0,
+            "table_probe": 2079
+          }
+        },
+        "5": {
+          "primitive_work": 538342,
+          "relation_arity": 5,
+          "relation_count": 1198,
+          "row_sha256": "254515adfa2fd8ccd09cf120648c4a0b61ea276912e758e48347670b927644e9",
+          "saturated_prefix": {
+            "complement_lookups": 2,
+            "generation_work": 50,
+            "rank": 4,
+            "rank_cap": 4,
+            "rank_coefficient_work": 60,
+            "relation_limit": 16,
+            "relations_generated": 4,
+            "relations_to_rank_cap": 4,
+            "total_with_pair_preparation": 2946
+          },
+          "solver_to_full_rank": {
+            "complement_lookups": 3,
+            "generation_work": 65,
+            "matrix_width": 5,
+            "online_vs_arity_3_ratio": 0.6266094420600858,
+            "online_work": 146,
+            "processed_targets": 2,
+            "rank": 5,
+            "rank_coefficient_work": 81,
+            "relations_used": 5,
+            "total_vs_arity_3_ratio": 0.9716520039100685,
+            "total_with_pair_preparation": 2982
+          },
+          "stats": {
+            "complement_lookups": 50736,
+            "duplicate_full_rows": 45446,
+            "exact_pair_rows": 1057,
+            "group_failures": 0,
+            "pair_hits": 93197,
+            "pair_order_rejections": 46553,
+            "unique_full_rows": 1198
+          },
+          "total_with_pair_preparation": 541178,
+          "work": {
+            "coefficient_op": 233220,
+            "endomorphism": 101478,
+            "point_add": 106264,
+            "point_double": 0,
+            "scalar_add": 0,
+            "scalar_double": 0,
+            "table_probe": 97380
+          }
+        }
+      },
+      "stored_pair_representatives": 177,
+      "streamed_exact_pair_rows": 1057,
+      "target": {
+        "index": 0,
+        "point": [
+          15607,
+          9162
+        ],
+        "u": 307,
+        "v": 318
+      }
+    },
+    {
+      "arity_3_reference": {
+        "matrix_width": 5,
+        "online_work_to_full_rank": 293,
+        "processed_targets": 2,
+        "rank": 5,
+        "total_work_to_full_rank": 3129
+      },
+      "expected_exact_pair_rows": 1057,
+      "fixture": {
+        "b": 2,
+        "beta": 17982,
+        "eigenvalue": 1005,
+        "generator": [
+          43133,
+          11827
+        ],
+        "label": "b11-s431",
+        "n": 1489,
+        "p": 45979,
+        "seed": 431,
+        "subgroup_bits": 11
+      },
+      "full_partial_controls": {
+        "arity-4": 2233,
+        "arity-5": 18849
+      },
+      "prepared": {
+        "base_size": 4,
+        "matrix_width": 5,
+        "pair_index_mode": "S2-mu6-exact-quotient",
+        "predicted_pair_representatives": 177,
+        "preparation_primitive_work": 2836,
+        "preparation_work": {
+          "coefficient_op": 2094,
+          "endomorphism": 364,
+          "point_add": 177,
+          "point_double": 24,
+          "scalar_add": 0,
+          "scalar_double": 0,
+          "table_probe": 177
+        },
+        "quotient_pair_representatives": 177,
+        "raw_ordered_pair_entries": 2304,
+        "structural_compression_ratio": 13.016949152542374,
+        "weighted_terms": 48
+      },
+      "results": {
+        "4": {
+          "primitive_work": 6652,
+          "relation_arity": 4,
+          "relation_count": 75,
+          "row_sha256": "e99c480521f3dfe8bb95bffe43d8db70627a122140be0c7aeb45000fc35ec481",
+          "saturated_prefix": {
+            "complement_lookups": 6,
+            "generation_work": 63,
+            "rank": 4,
+            "rank_cap": 4,
+            "rank_coefficient_work": 66,
+            "relation_limit": 16,
+            "relations_generated": 4,
+            "relations_to_rank_cap": 4,
+            "total_with_pair_preparation": 2965
+          },
+          "solver_to_full_rank": {
+            "complement_lookups": 8,
+            "generation_work": 81,
+            "matrix_width": 5,
+            "online_vs_arity_3_ratio": 0.5733788395904437,
+            "online_work": 168,
+            "processed_targets": 2,
+            "rank": 5,
+            "rank_coefficient_work": 87,
+            "relations_used": 5,
+            "total_vs_arity_3_ratio": 0.9600511345477788,
+            "total_with_pair_preparation": 3004
+          },
+          "stats": {
+            "complement_lookups": 1057,
+            "duplicate_full_rows": 310,
+            "exact_pair_rows": 1057,
+            "group_failures": 0,
+            "pair_hits": 770,
+            "pair_order_rejections": 385,
+            "unique_full_rows": 75
+          },
+          "total_with_pair_preparation": 9488,
+          "work": {
+            "coefficient_op": 1540,
+            "endomorphism": 2388,
+            "point_add": 1282,
+            "point_double": 0,
+            "scalar_add": 0,
+            "scalar_double": 0,
+            "table_probe": 1442
+          }
+        },
+        "5": {
+          "primitive_work": 365054,
+          "relation_arity": 5,
+          "relation_count": 473,
+          "row_sha256": "f60a17034e556212c3833e19d25b6cadfe9f438b40071caf417013f7f60aca67",
+          "saturated_prefix": {
+            "complement_lookups": 10,
+            "generation_work": 102,
+            "rank": 4,
+            "rank_cap": 4,
+            "rank_coefficient_work": 52,
+            "relation_limit": 16,
+            "relations_generated": 4,
+            "relations_to_rank_cap": 4,
+            "total_with_pair_preparation": 2990
+          },
+          "solver_to_full_rank": {
+            "complement_lookups": 11,
+            "generation_work": 117,
+            "matrix_width": 5,
+            "online_vs_arity_3_ratio": 0.6484641638225256,
+            "online_work": 190,
+            "processed_targets": 2,
+            "rank": 5,
+            "rank_coefficient_work": 73,
+            "relations_used": 5,
+            "total_vs_arity_3_ratio": 0.9670821348673697,
+            "total_with_pair_preparation": 3026
+          },
+          "stats": {
+            "complement_lookups": 50736,
+            "duplicate_full_rows": 17740,
+            "exact_pair_rows": 1057,
+            "group_failures": 0,
+            "pair_hits": 36393,
+            "pair_order_rejections": 18180,
+            "unique_full_rows": 473
+          },
+          "total_with_pair_preparation": 367890,
+          "work": {
+            "coefficient_op": 91065,
+            "endomorphism": 101676,
+            "point_add": 103364,
+            "point_double": 0,
+            "scalar_add": 0,
+            "scalar_double": 0,
+            "table_probe": 68949
+          }
+        }
+      },
+      "stored_pair_representatives": 177,
+      "streamed_exact_pair_rows": 1057,
+      "target": {
+        "index": 0,
+        "point": [
+          43894,
+          38120
+        ],
+        "u": 636,
+        "v": 818
+      }
+    },
+    {
+      "arity_3_reference": {
+        "matrix_width": 5,
+        "online_work_to_full_rank": 300,
+        "processed_targets": 2,
+        "rank": 5,
+        "total_work_to_full_rank": 3136
+      },
+      "expected_exact_pair_rows": 1057,
+      "fixture": {
+        "b": 22,
+        "beta": 19808,
+        "eigenvalue": 1906,
+        "generator": [
+          2217,
+          23761
+        ],
+        "label": "b12-s433",
+        "n": 2371,
+        "p": 50221,
+        "seed": 433,
+        "subgroup_bits": 12
+      },
+      "full_partial_controls": {
+        "arity-4": 2233,
+        "arity-5": 18849
+      },
+      "prepared": {
+        "base_size": 4,
+        "matrix_width": 5,
+        "pair_index_mode": "S2-mu6-exact-quotient",
+        "predicted_pair_representatives": 177,
+        "preparation_primitive_work": 2836,
+        "preparation_work": {
+          "coefficient_op": 2094,
+          "endomorphism": 364,
+          "point_add": 177,
+          "point_double": 24,
+          "scalar_add": 0,
+          "scalar_double": 0,
+          "table_probe": 177
+        },
+        "quotient_pair_representatives": 177,
+        "raw_ordered_pair_entries": 2304,
+        "structural_compression_ratio": 13.016949152542374,
+        "weighted_terms": 48
+      },
+      "results": {
+        "4": {
+          "primitive_work": 6342,
+          "relation_arity": 4,
+          "relation_count": 65,
+          "row_sha256": "5a65997e34a16a9116b50c2609b73bf0df5e32dd045799d40eb45e9ff817fd7e",
+          "saturated_prefix": {
+            "complement_lookups": 10,
+            "generation_work": 79,
+            "rank": 4,
+            "rank_cap": 4,
+            "rank_coefficient_work": 56,
+            "relation_limit": 16,
+            "relations_generated": 4,
+            "relations_to_rank_cap": 4,
+            "total_with_pair_preparation": 2971
+          },
+          "solver_to_full_rank": {
+            "complement_lookups": 12,
+            "generation_work": 97,
+            "matrix_width": 5,
+            "online_vs_arity_3_ratio": 0.5766666666666667,
+            "online_work": 173,
+            "processed_targets": 2,
+            "rank": 5,
+            "rank_coefficient_work": 76,
+            "relations_used": 5,
+            "total_vs_arity_3_ratio": 0.9595025510204082,
+            "total_with_pair_preparation": 3009
+          },
+          "stats": {
+            "complement_lookups": 1057,
+            "duplicate_full_rows": 268,
+            "exact_pair_rows": 1057,
+            "group_failures": 0,
+            "pair_hits": 665,
+            "pair_order_rejections": 332,
+            "unique_full_rows": 65
+          },
+          "total_with_pair_preparation": 9178,
+          "work": {
+            "coefficient_op": 1332,
+            "endomorphism": 2368,
+            "point_add": 1252,
+            "point_double": 0,
+            "scalar_add": 0,
+            "scalar_double": 0,
+            "table_probe": 1390
+          }
+        },
+        "5": {
+          "primitive_work": 338478,
+          "relation_arity": 5,
+          "relation_count": 312,
+          "row_sha256": "d10474c4ea7595c63062290b20de5314f522114e100c77c754e9daa4fe2960ed",
+          "saturated_prefix": {
+            "complement_lookups": 11,
+            "generation_work": 107,
+            "rank": 4,
+            "rank_cap": 4,
+            "rank_coefficient_work": 52,
+            "relation_limit": 16,
+            "relations_generated": 4,
+            "relations_to_rank_cap": 4,
+            "total_with_pair_preparation": 2995
+          },
+          "solver_to_full_rank": {
+            "complement_lookups": 12,
+            "generation_work": 122,
+            "matrix_width": 5,
+            "online_vs_arity_3_ratio": 0.6533333333333333,
+            "online_work": 196,
+            "processed_targets": 2,
+            "rank": 5,
+            "rank_coefficient_work": 74,
+            "relations_used": 5,
+            "total_vs_arity_3_ratio": 0.9668367346938775,
+            "total_with_pair_preparation": 3032
+          },
+          "stats": {
+            "complement_lookups": 50736,
+            "duplicate_full_rows": 13580,
+            "exact_pair_rows": 1057,
+            "group_failures": 0,
+            "pair_hits": 27759,
+            "pair_order_rejections": 13867,
+            "unique_full_rows": 312
+          },
+          "total_with_pair_preparation": 341314,
+          "work": {
+            "coefficient_op": 69460,
+            "endomorphism": 101670,
+            "point_add": 102720,
+            "point_double": 0,
+            "scalar_add": 0,
+            "scalar_double": 0,
+            "table_probe": 64628
+          }
+        }
+      },
+      "stored_pair_representatives": 177,
+      "streamed_exact_pair_rows": 1057,
+      "target": {
+        "index": 0,
+        "point": [
+          30913,
+          14683
+        ],
+        "u": 489,
+        "v": 450
+      }
+    }
+  ],
+  "experiment": "SageMath balanced higher-arity OWIC generator",
+  "held_out": true,
+  "promotion_gate": {
+    "passed": true,
+    "verdict": "PROMOTE_BALANCED_STORAGE"
+  },
+  "sage_version": "10.7"
+}

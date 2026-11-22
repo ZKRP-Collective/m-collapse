@@ -1,0 +1,2444 @@
+{
+  "aggregate": {
+    "all_pair_row_sets_equal": true,
+    "all_policies_full_rank": true,
+    "beats_commutative_control": true,
+    "formula_matches_all_cells": true,
+    "online_ratio_max": 1.1566265060240963,
+    "online_ratio_median": 1.0478014468315684,
+    "online_ratio_min": 0.6561238223418573,
+    "total_ratio_max": 0.24312778603268945,
+    "total_ratio_median": 0.2326239176670724,
+    "total_ratio_min": 0.22862897559604664,
+    "verification_failures": 0,
+    "winning_cells": 8
+  },
+  "base_size": 12,
+  "cells": [
+    {
+      "commutative_exact_pair_rows": 10081,
+      "fixture": {
+        "b": 29,
+        "beta": 10701,
+        "eigenvalue": 23,
+        "generator": [
+          16942,
+          6931
+        ],
+        "label": "b7-s211",
+        "n": 79,
+        "p": 20743,
+        "seed": 211,
+        "subgroup_bits": 7
+      },
+      "online_work_to_full_rank_ratio": 1.0851063829787233,
+      "pair_audit": {
+        "exact_pair_rows_checked": 10081,
+        "group_failures": 0,
+        "row_set_mismatches": 0,
+        "subgroup_points_checked": 79
+      },
+      "preparation_work_ratio": 0.21409331409331409,
+      "quotient_online_work_to_full_rank": 918,
+      "quotient_policy": {
+        "adaptive_credit": 0,
+        "adaptive_observations": 0,
+        "adaptive_switch_rank": null,
+        "dual_initializations": 0,
+        "dual_tests": 0,
+        "final_dual_nullity": null,
+        "frontiers": [
+          {
+            "independent_relations": 10,
+            "independent_relations_per_primitive": 0.0010636034886194426,
+            "total_work_frontier": 9402,
+            "variable_work_frontier": 500
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.0013128660876590588,
+            "total_work_frontier": 9902,
+            "variable_work_frontier": 1000
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.001192441753806641,
+            "total_work_frontier": 10902,
+            "variable_work_frontier": 2000
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.0010922534027894473,
+            "total_work_frontier": 11902,
+            "variable_work_frontier": 3000
+          }
+        ],
+        "hybrid_nullity_threshold": 4,
+        "matrix_width": 13,
+        "policy": "rank-saturated",
+        "primal_tests": 35,
+        "primitive_work": 9820,
+        "processed_targets": 2,
+        "rank": 13,
+        "rank_events": [
+          [
+            22,
+            1
+          ],
+          [
+            45,
+            2
+          ],
+          [
+            79,
+            3
+          ],
+          [
+            109,
+            4
+          ],
+          [
+            145,
+            5
+          ],
+          [
+            182,
+            6
+          ],
+          [
+            204,
+            7
+          ],
+          [
+            220,
+            8
+          ],
+          [
+            298,
+            9
+          ],
+          [
+            328,
+            10
+          ],
+          [
+            532,
+            11
+          ],
+          [
+            881,
+            12
+          ],
+          [
+            918,
+            13
+          ]
+        ],
+        "rank_saturated_targets": 1,
+        "shared_variable_work": 8,
+        "template_totals": {
+          "candidates_created": 35,
+          "canonicalized": 35,
+          "disabled": 0,
+          "pivots": 13,
+          "primitive_work": 910,
+          "unique": 35
+        },
+        "unique_rows": 35,
+        "variable_primitive_work": 918,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 2838,
+          "endomorphism": 3378,
+          "point_add": 1720,
+          "point_double": 72,
+          "scalar_add": 29,
+          "scalar_double": 65,
+          "table_probe": 1718
+        },
+        "work_to_full_rank": 9820,
+        "zero_syndromes": 0
+      },
+      "quotient_prepared": {
+        "base_size": 12,
+        "matrix_width": 13,
+        "pair_index_mode": "S2-mu6-exact-quotient",
+        "predicted_pair_representatives": 1681,
+        "preparation_primitive_work": 8902,
+        "preparation_work": {
+          "coefficient_op": 2094,
+          "endomorphism": 3374,
+          "point_add": 1681,
+          "point_double": 72,
+          "scalar_add": 0,
+          "scalar_double": 0,
+          "table_probe": 1681
+        },
+        "quotient_pair_representatives": 1681,
+        "raw_ordered_pair_entries": 20736,
+        "structural_compression_ratio": 12.335514574657942,
+        "weighted_terms": 144
+      },
+      "reference_online_work_to_full_rank": 846,
+      "reference_policy": {
+        "adaptive_credit": 0,
+        "adaptive_observations": 0,
+        "adaptive_switch_rank": null,
+        "dual_initializations": 0,
+        "dual_tests": 0,
+        "final_dual_nullity": null,
+        "frontiers": [
+          {
+            "independent_relations": 8,
+            "independent_relations_per_primitive": 0.00019011406844106463,
+            "total_work_frontier": 42080,
+            "variable_work_frontier": 500
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.00030530765617660876,
+            "total_work_frontier": 42580,
+            "variable_work_frontier": 1000
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.0002983019733822855,
+            "total_work_frontier": 43580,
+            "variable_work_frontier": 2000
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.00029161058770749214,
+            "total_work_frontier": 44580,
+            "variable_work_frontier": 3000
+          }
+        ],
+        "hybrid_nullity_threshold": 4,
+        "matrix_width": 13,
+        "policy": "rank-saturated",
+        "primal_tests": 20,
+        "primitive_work": 42426,
+        "processed_targets": 2,
+        "rank": 13,
+        "rank_events": [
+          [
+            28,
+            1
+          ],
+          [
+            62,
+            2
+          ],
+          [
+            101,
+            3
+          ],
+          [
+            164,
+            4
+          ],
+          [
+            180,
+            5
+          ],
+          [
+            300,
+            6
+          ],
+          [
+            349,
+            7
+          ],
+          [
+            411,
+            8
+          ],
+          [
+            504,
+            9
+          ],
+          [
+            566,
+            10
+          ],
+          [
+            708,
+            11
+          ],
+          [
+            798,
+            12
+          ],
+          [
+            846,
+            13
+          ]
+        ],
+        "rank_saturated_targets": 1,
+        "shared_variable_work": 4,
+        "template_totals": {
+          "candidates_created": 20,
+          "canonicalized": 20,
+          "disabled": 0,
+          "pivots": 13,
+          "primitive_work": 842,
+          "unique": 20
+        },
+        "unique_rows": 20,
+        "variable_primitive_work": 846,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 698,
+          "endomorphism": 36,
+          "point_add": 20782,
+          "point_double": 72,
+          "scalar_add": 28,
+          "scalar_double": 52,
+          "table_probe": 20758
+        },
+        "work_to_full_rank": 42426,
+        "zero_syndromes": 0
+      },
+      "reference_prepared": {
+        "base_size": 12,
+        "matrix_width": 13,
+        "ordered_pair_entries": 20736,
+        "preparation_primitive_work": 41580,
+        "preparation_work": {
+          "coefficient_op": 0,
+          "endomorphism": 36,
+          "point_add": 20736,
+          "point_double": 72,
+          "scalar_add": 0,
+          "scalar_double": 0,
+          "table_probe": 20736
+        },
+        "weighted_terms": 144
+      },
+      "total_work_to_full_rank_ratio": 0.23146183943808044
+    },
+    {
+      "commutative_exact_pair_rows": 10081,
+      "fixture": {
+        "b": 5,
+        "beta": 8723,
+        "eigenvalue": 8,
+        "generator": [
+          13909,
+          9662
+        ],
+        "label": "b7-s223",
+        "n": 73,
+        "p": 21937,
+        "seed": 223,
+        "subgroup_bits": 7
+      },
+      "online_work_to_full_rank_ratio": 1.0580693815987934,
+      "pair_audit": {
+        "exact_pair_rows_checked": 10081,
+        "group_failures": 0,
+        "row_set_mismatches": 0,
+        "subgroup_points_checked": 73
+      },
+      "preparation_work_ratio": 0.21404521404521404,
+      "quotient_online_work_to_full_rank": 1403,
+      "quotient_policy": {
+        "adaptive_credit": 0,
+        "adaptive_observations": 0,
+        "adaptive_switch_rank": null,
+        "dual_initializations": 0,
+        "dual_tests": 0,
+        "final_dual_nullity": null,
+        "frontiers": [
+          {
+            "independent_relations": 8,
+            "independent_relations_per_primitive": 0.000851063829787234,
+            "total_work_frontier": 9400,
+            "variable_work_frontier": 500
+          },
+          {
+            "independent_relations": 11,
+            "independent_relations_per_primitive": 0.0011111111111111111,
+            "total_work_frontier": 9900,
+            "variable_work_frontier": 1000
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.0011926605504587156,
+            "total_work_frontier": 10900,
+            "variable_work_frontier": 2000
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.001092436974789916,
+            "total_work_frontier": 11900,
+            "variable_work_frontier": 3000
+          }
+        ],
+        "hybrid_nullity_threshold": 4,
+        "matrix_width": 13,
+        "policy": "rank-saturated",
+        "primal_tests": 37,
+        "primitive_work": 10303,
+        "processed_targets": 2,
+        "rank": 13,
+        "rank_events": [
+          [
+            29,
+            1
+          ],
+          [
+            65,
+            2
+          ],
+          [
+            100,
+            3
+          ],
+          [
+            141,
+            4
+          ],
+          [
+            183,
+            5
+          ],
+          [
+            214,
+            6
+          ],
+          [
+            347,
+            7
+          ],
+          [
+            419,
+            8
+          ],
+          [
+            522,
+            9
+          ],
+          [
+            560,
+            10
+          ],
+          [
+            834,
+            11
+          ],
+          [
+            1356,
+            12
+          ],
+          [
+            1403,
+            13
+          ]
+        ],
+        "rank_saturated_targets": 1,
+        "shared_variable_work": 8,
+        "template_totals": {
+          "candidates_created": 37,
+          "canonicalized": 37,
+          "disabled": 0,
+          "pivots": 13,
+          "primitive_work": 1395,
+          "unique": 37
+        },
+        "unique_rows": 37,
+        "variable_primitive_work": 1403,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 3333,
+          "endomorphism": 3376,
+          "point_add": 1723,
+          "point_double": 72,
+          "scalar_add": 16,
+          "scalar_double": 63,
+          "table_probe": 1720
+        },
+        "work_to_full_rank": 10303,
+        "zero_syndromes": 0
+      },
+      "quotient_prepared": {
+        "base_size": 12,
+        "matrix_width": 13,
+        "pair_index_mode": "S2-mu6-exact-quotient",
+        "predicted_pair_representatives": 1681,
+        "preparation_primitive_work": 8900,
+        "preparation_work": {
+          "coefficient_op": 2094,
+          "endomorphism": 3372,
+          "point_add": 1681,
+          "point_double": 72,
+          "scalar_add": 0,
+          "scalar_double": 0,
+          "table_probe": 1681
+        },
+        "quotient_pair_representatives": 1681,
+        "raw_ordered_pair_entries": 20736,
+        "structural_compression_ratio": 12.335514574657942,
+        "weighted_terms": 144
+      },
+      "reference_online_work_to_full_rank": 1326,
+      "reference_policy": {
+        "adaptive_credit": 0,
+        "adaptive_observations": 0,
+        "adaptive_switch_rank": null,
+        "dual_initializations": 0,
+        "dual_tests": 0,
+        "final_dual_nullity": null,
+        "frontiers": [
+          {
+            "independent_relations": 8,
+            "independent_relations_per_primitive": 0.00019011406844106463,
+            "total_work_frontier": 42080,
+            "variable_work_frontier": 500
+          },
+          {
+            "independent_relations": 10,
+            "independent_relations_per_primitive": 0.00023485204321277596,
+            "total_work_frontier": 42580,
+            "variable_work_frontier": 1000
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.0002983019733822855,
+            "total_work_frontier": 43580,
+            "variable_work_frontier": 2000
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.00029161058770749214,
+            "total_work_frontier": 44580,
+            "variable_work_frontier": 3000
+          }
+        ],
+        "hybrid_nullity_threshold": 4,
+        "matrix_width": 13,
+        "policy": "rank-saturated",
+        "primal_tests": 34,
+        "primitive_work": 42906,
+        "processed_targets": 2,
+        "rank": 13,
+        "rank_events": [
+          [
+            23,
+            1
+          ],
+          [
+            50,
+            2
+          ],
+          [
+            84,
+            3
+          ],
+          [
+            144,
+            4
+          ],
+          [
+            268,
+            5
+          ],
+          [
+            314,
+            6
+          ],
+          [
+            356,
+            7
+          ],
+          [
+            441,
+            8
+          ],
+          [
+            613,
+            9
+          ],
+          [
+            702,
+            10
+          ],
+          [
+            1126,
+            11
+          ],
+          [
+            1282,
+            12
+          ],
+          [
+            1326,
+            13
+          ]
+        ],
+        "rank_saturated_targets": 1,
+        "shared_variable_work": 4,
+        "template_totals": {
+          "candidates_created": 39,
+          "canonicalized": 39,
+          "disabled": 0,
+          "pivots": 13,
+          "primitive_work": 1322,
+          "unique": 34
+        },
+        "unique_rows": 34,
+        "variable_primitive_work": 1326,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 1192,
+          "endomorphism": 36,
+          "point_add": 20785,
+          "point_double": 72,
+          "scalar_add": 6,
+          "scalar_double": 38,
+          "table_probe": 20777
+        },
+        "work_to_full_rank": 42906,
+        "zero_syndromes": 0
+      },
+      "reference_prepared": {
+        "base_size": 12,
+        "matrix_width": 13,
+        "ordered_pair_entries": 20736,
+        "preparation_primitive_work": 41580,
+        "preparation_work": {
+          "coefficient_op": 0,
+          "endomorphism": 36,
+          "point_add": 20736,
+          "point_double": 72,
+          "scalar_add": 0,
+          "scalar_double": 0,
+          "table_probe": 20736
+        },
+        "weighted_terms": 144
+      },
+      "total_work_to_full_rank_ratio": 0.2401295856057428
+    },
+    {
+      "commutative_exact_pair_rows": 10081,
+      "fixture": {
+        "b": 5,
+        "beta": 13283,
+        "eigenvalue": 48,
+        "generator": [
+          2639,
+          12661
+        ],
+        "label": "b8-s227",
+        "n": 181,
+        "p": 22567,
+        "seed": 227,
+        "subgroup_bits": 8
+      },
+      "online_work_to_full_rank_ratio": 1.1566265060240963,
+      "pair_audit": {
+        "exact_pair_rows_checked": 10081,
+        "group_failures": 0,
+        "row_set_mismatches": 0,
+        "subgroup_points_checked": 181
+      },
+      "preparation_work_ratio": 0.21433381433381432,
+      "quotient_online_work_to_full_rank": 1056,
+      "quotient_policy": {
+        "adaptive_credit": 0,
+        "adaptive_observations": 0,
+        "adaptive_switch_rank": null,
+        "dual_initializations": 0,
+        "dual_tests": 0,
+        "final_dual_nullity": null,
+        "frontiers": [
+          {
+            "independent_relations": 8,
+            "independent_relations_per_primitive": 0.0008499787505312367,
+            "total_work_frontier": 9412,
+            "variable_work_frontier": 500
+          },
+          {
+            "independent_relations": 11,
+            "independent_relations_per_primitive": 0.001109765940274415,
+            "total_work_frontier": 9912,
+            "variable_work_frontier": 1000
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.0011913489736070381,
+            "total_work_frontier": 10912,
+            "variable_work_frontier": 2000
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.001091336467427804,
+            "total_work_frontier": 11912,
+            "variable_work_frontier": 3000
+          }
+        ],
+        "hybrid_nullity_threshold": 4,
+        "matrix_width": 13,
+        "policy": "rank-saturated",
+        "primal_tests": 25,
+        "primitive_work": 9968,
+        "processed_targets": 2,
+        "rank": 13,
+        "rank_events": [
+          [
+            30,
+            1
+          ],
+          [
+            64,
+            2
+          ],
+          [
+            112,
+            3
+          ],
+          [
+            157,
+            4
+          ],
+          [
+            196,
+            5
+          ],
+          [
+            227,
+            6
+          ],
+          [
+            294,
+            7
+          ],
+          [
+            467,
+            8
+          ],
+          [
+            524,
+            9
+          ],
+          [
+            580,
+            10
+          ],
+          [
+            962,
+            11
+          ],
+          [
+            1005,
+            12
+          ],
+          [
+            1056,
+            13
+          ]
+        ],
+        "rank_saturated_targets": 1,
+        "shared_variable_work": 8,
+        "template_totals": {
+          "candidates_created": 25,
+          "canonicalized": 25,
+          "disabled": 0,
+          "pivots": 13,
+          "primitive_work": 1048,
+          "unique": 25
+        },
+        "unique_rows": 25,
+        "variable_primitive_work": 1056,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 2938,
+          "endomorphism": 3388,
+          "point_add": 1726,
+          "point_double": 72,
+          "scalar_add": 40,
+          "scalar_double": 96,
+          "table_probe": 1708
+        },
+        "work_to_full_rank": 9968,
+        "zero_syndromes": 0
+      },
+      "quotient_prepared": {
+        "base_size": 12,
+        "matrix_width": 13,
+        "pair_index_mode": "S2-mu6-exact-quotient",
+        "predicted_pair_representatives": 1681,
+        "preparation_primitive_work": 8912,
+        "preparation_work": {
+          "coefficient_op": 2094,
+          "endomorphism": 3384,
+          "point_add": 1681,
+          "point_double": 72,
+          "scalar_add": 0,
+          "scalar_double": 0,
+          "table_probe": 1681
+        },
+        "quotient_pair_representatives": 1681,
+        "raw_ordered_pair_entries": 20736,
+        "structural_compression_ratio": 12.335514574657942,
+        "weighted_terms": 144
+      },
+      "reference_online_work_to_full_rank": 913,
+      "reference_policy": {
+        "adaptive_credit": 0,
+        "adaptive_observations": 0,
+        "adaptive_switch_rank": null,
+        "dual_initializations": 0,
+        "dual_tests": 0,
+        "final_dual_nullity": null,
+        "frontiers": [
+          {
+            "independent_relations": 8,
+            "independent_relations_per_primitive": 0.00019011406844106463,
+            "total_work_frontier": 42080,
+            "variable_work_frontier": 500
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.00030530765617660876,
+            "total_work_frontier": 42580,
+            "variable_work_frontier": 1000
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.0002983019733822855,
+            "total_work_frontier": 43580,
+            "variable_work_frontier": 2000
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.00029161058770749214,
+            "total_work_frontier": 44580,
+            "variable_work_frontier": 3000
+          }
+        ],
+        "hybrid_nullity_threshold": 4,
+        "matrix_width": 13,
+        "policy": "rank-saturated",
+        "primal_tests": 26,
+        "primitive_work": 42493,
+        "processed_targets": 2,
+        "rank": 13,
+        "rank_events": [
+          [
+            23,
+            1
+          ],
+          [
+            48,
+            2
+          ],
+          [
+            76,
+            3
+          ],
+          [
+            112,
+            4
+          ],
+          [
+            150,
+            5
+          ],
+          [
+            214,
+            6
+          ],
+          [
+            252,
+            7
+          ],
+          [
+            388,
+            8
+          ],
+          [
+            631,
+            9
+          ],
+          [
+            721,
+            10
+          ],
+          [
+            763,
+            11
+          ],
+          [
+            871,
+            12
+          ],
+          [
+            913,
+            13
+          ]
+        ],
+        "rank_saturated_targets": 1,
+        "shared_variable_work": 4,
+        "template_totals": {
+          "candidates_created": 30,
+          "canonicalized": 30,
+          "disabled": 0,
+          "pivots": 13,
+          "primitive_work": 909,
+          "unique": 26
+        },
+        "unique_rows": 26,
+        "variable_primitive_work": 913,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 758,
+          "endomorphism": 36,
+          "point_add": 20782,
+          "point_double": 72,
+          "scalar_add": 22,
+          "scalar_double": 55,
+          "table_probe": 20768
+        },
+        "work_to_full_rank": 42493,
+        "zero_syndromes": 0
+      },
+      "reference_prepared": {
+        "base_size": 12,
+        "matrix_width": 13,
+        "ordered_pair_entries": 20736,
+        "preparation_primitive_work": 41580,
+        "preparation_work": {
+          "coefficient_op": 0,
+          "endomorphism": 36,
+          "point_add": 20736,
+          "point_double": 72,
+          "scalar_add": 0,
+          "scalar_double": 0,
+          "table_probe": 20736
+        },
+        "weighted_terms": 144
+      },
+      "total_work_to_full_rank_ratio": 0.2345798131456946
+    },
+    {
+      "commutative_exact_pair_rows": 10081,
+      "fixture": {
+        "b": 1,
+        "beta": 10350,
+        "eigenvalue": 12,
+        "generator": [
+          13787,
+          4092
+        ],
+        "label": "b8-s229",
+        "n": 157,
+        "p": 22741,
+        "seed": 229,
+        "subgroup_bits": 8
+      },
+      "online_work_to_full_rank_ratio": 0.6561238223418573,
+      "pair_audit": {
+        "exact_pair_rows_checked": 10081,
+        "group_failures": 0,
+        "row_set_mismatches": 0,
+        "subgroup_points_checked": 157
+      },
+      "preparation_work_ratio": 0.21433381433381432,
+      "quotient_online_work_to_full_rank": 975,
+      "quotient_policy": {
+        "adaptive_credit": 0,
+        "adaptive_observations": 0,
+        "adaptive_switch_rank": null,
+        "dual_initializations": 0,
+        "dual_tests": 0,
+        "final_dual_nullity": null,
+        "frontiers": [
+          {
+            "independent_relations": 8,
+            "independent_relations_per_primitive": 0.0008499787505312367,
+            "total_work_frontier": 9412,
+            "variable_work_frontier": 500
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.001311541565778854,
+            "total_work_frontier": 9912,
+            "variable_work_frontier": 1000
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.0011913489736070381,
+            "total_work_frontier": 10912,
+            "variable_work_frontier": 2000
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.001091336467427804,
+            "total_work_frontier": 11912,
+            "variable_work_frontier": 3000
+          }
+        ],
+        "hybrid_nullity_threshold": 4,
+        "matrix_width": 13,
+        "policy": "rank-saturated",
+        "primal_tests": 29,
+        "primitive_work": 9887,
+        "processed_targets": 2,
+        "rank": 13,
+        "rank_events": [
+          [
+            29,
+            1
+          ],
+          [
+            62,
+            2
+          ],
+          [
+            78,
+            3
+          ],
+          [
+            118,
+            4
+          ],
+          [
+            179,
+            5
+          ],
+          [
+            263,
+            6
+          ],
+          [
+            302,
+            7
+          ],
+          [
+            471,
+            8
+          ],
+          [
+            513,
+            9
+          ],
+          [
+            554,
+            10
+          ],
+          [
+            724,
+            11
+          ],
+          [
+            934,
+            12
+          ],
+          [
+            975,
+            13
+          ]
+        ],
+        "rank_saturated_targets": 1,
+        "shared_variable_work": 8,
+        "template_totals": {
+          "candidates_created": 29,
+          "canonicalized": 29,
+          "disabled": 0,
+          "pivots": 13,
+          "primitive_work": 967,
+          "unique": 29
+        },
+        "unique_rows": 29,
+        "variable_primitive_work": 975,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 2895,
+          "endomorphism": 3388,
+          "point_add": 1726,
+          "point_double": 72,
+          "scalar_add": 29,
+          "scalar_double": 65,
+          "table_probe": 1712
+        },
+        "work_to_full_rank": 9887,
+        "zero_syndromes": 0
+      },
+      "quotient_prepared": {
+        "base_size": 12,
+        "matrix_width": 13,
+        "pair_index_mode": "S2-mu6-exact-quotient",
+        "predicted_pair_representatives": 1681,
+        "preparation_primitive_work": 8912,
+        "preparation_work": {
+          "coefficient_op": 2094,
+          "endomorphism": 3384,
+          "point_add": 1681,
+          "point_double": 72,
+          "scalar_add": 0,
+          "scalar_double": 0,
+          "table_probe": 1681
+        },
+        "quotient_pair_representatives": 1681,
+        "raw_ordered_pair_entries": 20736,
+        "structural_compression_ratio": 12.335514574657942,
+        "weighted_terms": 144
+      },
+      "reference_online_work_to_full_rank": 1486,
+      "reference_policy": {
+        "adaptive_credit": 0,
+        "adaptive_observations": 0,
+        "adaptive_switch_rank": null,
+        "dual_initializations": 0,
+        "dual_tests": 0,
+        "final_dual_nullity": null,
+        "frontiers": [
+          {
+            "independent_relations": 9,
+            "independent_relations_per_primitive": 0.00021387832699619773,
+            "total_work_frontier": 42080,
+            "variable_work_frontier": 500
+          },
+          {
+            "independent_relations": 11,
+            "independent_relations_per_primitive": 0.00025833724753405356,
+            "total_work_frontier": 42580,
+            "variable_work_frontier": 1000
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.0002983019733822855,
+            "total_work_frontier": 43580,
+            "variable_work_frontier": 2000
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.00029161058770749214,
+            "total_work_frontier": 44580,
+            "variable_work_frontier": 3000
+          }
+        ],
+        "hybrid_nullity_threshold": 4,
+        "matrix_width": 13,
+        "policy": "rank-saturated",
+        "primal_tests": 33,
+        "primitive_work": 43066,
+        "processed_targets": 2,
+        "rank": 13,
+        "rank_events": [
+          [
+            23,
+            1
+          ],
+          [
+            53,
+            2
+          ],
+          [
+            69,
+            3
+          ],
+          [
+            133,
+            4
+          ],
+          [
+            188,
+            5
+          ],
+          [
+            228,
+            6
+          ],
+          [
+            268,
+            7
+          ],
+          [
+            352,
+            8
+          ],
+          [
+            442,
+            9
+          ],
+          [
+            526,
+            10
+          ],
+          [
+            577,
+            11
+          ],
+          [
+            1425,
+            12
+          ],
+          [
+            1486,
+            13
+          ]
+        ],
+        "rank_saturated_targets": 1,
+        "shared_variable_work": 4,
+        "template_totals": {
+          "candidates_created": 43,
+          "canonicalized": 43,
+          "disabled": 0,
+          "pivots": 13,
+          "primitive_work": 1482,
+          "unique": 33
+        },
+        "unique_rows": 33,
+        "variable_primitive_work": 1486,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 1341,
+          "endomorphism": 36,
+          "point_add": 20786,
+          "point_double": 72,
+          "scalar_add": 10,
+          "scalar_double": 40,
+          "table_probe": 20781
+        },
+        "work_to_full_rank": 43066,
+        "zero_syndromes": 0
+      },
+      "reference_prepared": {
+        "base_size": 12,
+        "matrix_width": 13,
+        "ordered_pair_entries": 20736,
+        "preparation_primitive_work": 41580,
+        "preparation_work": {
+          "coefficient_op": 0,
+          "endomorphism": 36,
+          "point_add": 20736,
+          "point_double": 72,
+          "scalar_add": 0,
+          "scalar_double": 0,
+          "table_probe": 20736
+        },
+        "weighted_terms": 144
+      },
+      "total_work_to_full_rank_ratio": 0.22957785724237217
+    },
+    {
+      "commutative_exact_pair_rows": 10081,
+      "fixture": {
+        "b": 1,
+        "beta": 20558,
+        "eigenvalue": 254,
+        "generator": [
+          12053,
+          799
+        ],
+        "label": "b9-s233",
+        "n": 487,
+        "p": 23629,
+        "seed": 233,
+        "subgroup_bits": 9
+      },
+      "online_work_to_full_rank_ratio": 0.6804238706079196,
+      "pair_audit": {
+        "exact_pair_rows_checked": 10081,
+        "group_failures": 0,
+        "row_set_mismatches": 0,
+        "subgroup_points_checked": 487
+      },
+      "preparation_work_ratio": 0.21452621452621454,
+      "quotient_online_work_to_full_rank": 1220,
+      "quotient_policy": {
+        "adaptive_credit": 0,
+        "adaptive_observations": 0,
+        "adaptive_switch_rank": null,
+        "dual_initializations": 0,
+        "dual_tests": 0,
+        "final_dual_nullity": null,
+        "frontiers": [
+          {
+            "independent_relations": 9,
+            "independent_relations_per_primitive": 0.0009554140127388535,
+            "total_work_frontier": 9420,
+            "variable_work_frontier": 500
+          },
+          {
+            "independent_relations": 11,
+            "independent_relations_per_primitive": 0.0011088709677419355,
+            "total_work_frontier": 9920,
+            "variable_work_frontier": 1000
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.0011904761904761906,
+            "total_work_frontier": 10920,
+            "variable_work_frontier": 2000
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.0010906040268456375,
+            "total_work_frontier": 11920,
+            "variable_work_frontier": 3000
+          }
+        ],
+        "hybrid_nullity_threshold": 4,
+        "matrix_width": 13,
+        "policy": "rank-saturated",
+        "primal_tests": 32,
+        "primitive_work": 10140,
+        "processed_targets": 2,
+        "rank": 13,
+        "rank_events": [
+          [
+            31,
+            1
+          ],
+          [
+            67,
+            2
+          ],
+          [
+            83,
+            3
+          ],
+          [
+            106,
+            4
+          ],
+          [
+            153,
+            5
+          ],
+          [
+            200,
+            6
+          ],
+          [
+            253,
+            7
+          ],
+          [
+            427,
+            8
+          ],
+          [
+            479,
+            9
+          ],
+          [
+            570,
+            10
+          ],
+          [
+            768,
+            11
+          ],
+          [
+            1162,
+            12
+          ],
+          [
+            1220,
+            13
+          ]
+        ],
+        "rank_saturated_targets": 1,
+        "shared_variable_work": 12,
+        "template_totals": {
+          "candidates_created": 36,
+          "canonicalized": 36,
+          "disabled": 0,
+          "pivots": 13,
+          "primitive_work": 1208,
+          "unique": 32
+        },
+        "unique_rows": 32,
+        "variable_primitive_work": 1220,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 3060,
+          "endomorphism": 3398,
+          "point_add": 1727,
+          "point_double": 72,
+          "scalar_add": 60,
+          "scalar_double": 103,
+          "table_probe": 1720
+        },
+        "work_to_full_rank": 10140,
+        "zero_syndromes": 0
+      },
+      "quotient_prepared": {
+        "base_size": 12,
+        "matrix_width": 13,
+        "pair_index_mode": "S2-mu6-exact-quotient",
+        "predicted_pair_representatives": 1681,
+        "preparation_primitive_work": 8920,
+        "preparation_work": {
+          "coefficient_op": 2094,
+          "endomorphism": 3392,
+          "point_add": 1681,
+          "point_double": 72,
+          "scalar_add": 0,
+          "scalar_double": 0,
+          "table_probe": 1681
+        },
+        "quotient_pair_representatives": 1681,
+        "raw_ordered_pair_entries": 20736,
+        "structural_compression_ratio": 12.335514574657942,
+        "weighted_terms": 144
+      },
+      "reference_online_work_to_full_rank": 1793,
+      "reference_policy": {
+        "adaptive_credit": 0,
+        "adaptive_observations": 0,
+        "adaptive_switch_rank": null,
+        "dual_initializations": 0,
+        "dual_tests": 0,
+        "final_dual_nullity": null,
+        "frontiers": [
+          {
+            "independent_relations": 8,
+            "independent_relations_per_primitive": 0.00019011406844106463,
+            "total_work_frontier": 42080,
+            "variable_work_frontier": 500
+          },
+          {
+            "independent_relations": 10,
+            "independent_relations_per_primitive": 0.00023485204321277596,
+            "total_work_frontier": 42580,
+            "variable_work_frontier": 1000
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.0002983019733822855,
+            "total_work_frontier": 43580,
+            "variable_work_frontier": 2000
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.00029161058770749214,
+            "total_work_frontier": 44580,
+            "variable_work_frontier": 3000
+          }
+        ],
+        "hybrid_nullity_threshold": 4,
+        "matrix_width": 13,
+        "policy": "rank-saturated",
+        "primal_tests": 28,
+        "primitive_work": 43373,
+        "processed_targets": 2,
+        "rank": 13,
+        "rank_events": [
+          [
+            18,
+            1
+          ],
+          [
+            41,
+            2
+          ],
+          [
+            66,
+            3
+          ],
+          [
+            106,
+            4
+          ],
+          [
+            151,
+            5
+          ],
+          [
+            221,
+            6
+          ],
+          [
+            280,
+            7
+          ],
+          [
+            456,
+            8
+          ],
+          [
+            566,
+            9
+          ],
+          [
+            636,
+            10
+          ],
+          [
+            1024,
+            11
+          ],
+          [
+            1720,
+            12
+          ],
+          [
+            1793,
+            13
+          ]
+        ],
+        "rank_saturated_targets": 1,
+        "shared_variable_work": 6,
+        "template_totals": {
+          "candidates_created": 56,
+          "canonicalized": 56,
+          "disabled": 0,
+          "pivots": 13,
+          "primitive_work": 1787,
+          "unique": 28
+        },
+        "unique_rows": 28,
+        "variable_primitive_work": 1793,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 1586,
+          "endomorphism": 36,
+          "point_add": 20786,
+          "point_double": 72,
+          "scalar_add": 33,
+          "scalar_double": 65,
+          "table_probe": 20795
+        },
+        "work_to_full_rank": 43373,
+        "zero_syndromes": 0
+      },
+      "reference_prepared": {
+        "base_size": 12,
+        "matrix_width": 13,
+        "ordered_pair_entries": 20736,
+        "preparation_primitive_work": 41580,
+        "preparation_work": {
+          "coefficient_op": 0,
+          "endomorphism": 36,
+          "point_add": 20736,
+          "point_double": 72,
+          "scalar_add": 0,
+          "scalar_double": 0,
+          "table_probe": 20736
+        },
+        "weighted_terms": 144
+      },
+      "total_work_to_full_rank_ratio": 0.23378599589606436
+    },
+    {
+      "commutative_exact_pair_rows": 10081,
+      "fixture": {
+        "b": 7,
+        "beta": 12508,
+        "eigenvalue": 283,
+        "generator": [
+          17601,
+          2334
+        ],
+        "label": "b9-s239",
+        "n": 367,
+        "p": 24337,
+        "seed": 239,
+        "subgroup_bits": 9
+      },
+      "online_work_to_full_rank_ratio": 1.1418826739427013,
+      "pair_audit": {
+        "exact_pair_rows_checked": 10081,
+        "group_failures": 0,
+        "row_set_mismatches": 0,
+        "subgroup_points_checked": 367
+      },
+      "preparation_work_ratio": 0.2144781144781145,
+      "quotient_online_work_to_full_rank": 837,
+      "quotient_policy": {
+        "adaptive_credit": 0,
+        "adaptive_observations": 0,
+        "adaptive_switch_rank": null,
+        "dual_initializations": 0,
+        "dual_tests": 0,
+        "final_dual_nullity": null,
+        "frontiers": [
+          {
+            "independent_relations": 8,
+            "independent_relations_per_primitive": 0.0008494372478233171,
+            "total_work_frontier": 9418,
+            "variable_work_frontier": 500
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.0013107481347045776,
+            "total_work_frontier": 9918,
+            "variable_work_frontier": 1000
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.0011906942663491482,
+            "total_work_frontier": 10918,
+            "variable_work_frontier": 2000
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.0010907870448061754,
+            "total_work_frontier": 11918,
+            "variable_work_frontier": 3000
+          }
+        ],
+        "hybrid_nullity_threshold": 4,
+        "matrix_width": 13,
+        "policy": "rank-saturated",
+        "primal_tests": 18,
+        "primitive_work": 9755,
+        "processed_targets": 2,
+        "rank": 13,
+        "rank_events": [
+          [
+            35,
+            1
+          ],
+          [
+            51,
+            2
+          ],
+          [
+            94,
+            3
+          ],
+          [
+            129,
+            4
+          ],
+          [
+            181,
+            5
+          ],
+          [
+            300,
+            6
+          ],
+          [
+            381,
+            7
+          ],
+          [
+            437,
+            8
+          ],
+          [
+            546,
+            9
+          ],
+          [
+            615,
+            10
+          ],
+          [
+            721,
+            11
+          ],
+          [
+            774,
+            12
+          ],
+          [
+            837,
+            13
+          ]
+        ],
+        "rank_saturated_targets": 1,
+        "shared_variable_work": 8,
+        "template_totals": {
+          "candidates_created": 18,
+          "canonicalized": 18,
+          "disabled": 0,
+          "pivots": 13,
+          "primitive_work": 829,
+          "unique": 18
+        },
+        "unique_rows": 18,
+        "variable_primitive_work": 837,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 2699,
+          "endomorphism": 3394,
+          "point_add": 1728,
+          "point_double": 72,
+          "scalar_add": 46,
+          "scalar_double": 115,
+          "table_probe": 1701
+        },
+        "work_to_full_rank": 9755,
+        "zero_syndromes": 0
+      },
+      "quotient_prepared": {
+        "base_size": 12,
+        "matrix_width": 13,
+        "pair_index_mode": "S2-mu6-exact-quotient",
+        "predicted_pair_representatives": 1681,
+        "preparation_primitive_work": 8918,
+        "preparation_work": {
+          "coefficient_op": 2094,
+          "endomorphism": 3390,
+          "point_add": 1681,
+          "point_double": 72,
+          "scalar_add": 0,
+          "scalar_double": 0,
+          "table_probe": 1681
+        },
+        "quotient_pair_representatives": 1681,
+        "raw_ordered_pair_entries": 20736,
+        "structural_compression_ratio": 12.335514574657942,
+        "weighted_terms": 144
+      },
+      "reference_online_work_to_full_rank": 733,
+      "reference_policy": {
+        "adaptive_credit": 0,
+        "adaptive_observations": 0,
+        "adaptive_switch_rank": null,
+        "dual_initializations": 0,
+        "dual_tests": 0,
+        "final_dual_nullity": null,
+        "frontiers": [
+          {
+            "independent_relations": 10,
+            "independent_relations_per_primitive": 0.0002376425855513308,
+            "total_work_frontier": 42080,
+            "variable_work_frontier": 500
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.00030530765617660876,
+            "total_work_frontier": 42580,
+            "variable_work_frontier": 1000
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.0002983019733822855,
+            "total_work_frontier": 43580,
+            "variable_work_frontier": 2000
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.00029161058770749214,
+            "total_work_frontier": 44580,
+            "variable_work_frontier": 3000
+          }
+        ],
+        "hybrid_nullity_threshold": 4,
+        "matrix_width": 13,
+        "policy": "rank-saturated",
+        "primal_tests": 14,
+        "primitive_work": 42313,
+        "processed_targets": 2,
+        "rank": 13,
+        "rank_events": [
+          [
+            18,
+            1
+          ],
+          [
+            51,
+            2
+          ],
+          [
+            83,
+            3
+          ],
+          [
+            131,
+            4
+          ],
+          [
+            178,
+            5
+          ],
+          [
+            229,
+            6
+          ],
+          [
+            285,
+            7
+          ],
+          [
+            341,
+            8
+          ],
+          [
+            402,
+            9
+          ],
+          [
+            468,
+            10
+          ],
+          [
+            533,
+            11
+          ],
+          [
+            660,
+            12
+          ],
+          [
+            733,
+            13
+          ]
+        ],
+        "rank_saturated_targets": 1,
+        "shared_variable_work": 4,
+        "template_totals": {
+          "candidates_created": 15,
+          "canonicalized": 15,
+          "disabled": 0,
+          "pivots": 13,
+          "primitive_work": 729,
+          "unique": 14
+        },
+        "unique_rows": 14,
+        "variable_primitive_work": 733,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 558,
+          "endomorphism": 36,
+          "point_add": 20788,
+          "point_double": 72,
+          "scalar_add": 29,
+          "scalar_double": 77,
+          "table_probe": 20753
+        },
+        "work_to_full_rank": 42313,
+        "zero_syndromes": 0
+      },
+      "reference_prepared": {
+        "base_size": 12,
+        "matrix_width": 13,
+        "ordered_pair_entries": 20736,
+        "preparation_primitive_work": 41580,
+        "preparation_work": {
+          "coefficient_op": 0,
+          "endomorphism": 36,
+          "point_add": 20736,
+          "point_double": 72,
+          "scalar_add": 0,
+          "scalar_double": 0,
+          "table_probe": 20736
+        },
+        "weighted_terms": 144
+      },
+      "total_work_to_full_rank_ratio": 0.2305438045045258
+    },
+    {
+      "commutative_exact_pair_rows": 10081,
+      "fixture": {
+        "b": 2,
+        "beta": 972,
+        "eigenvalue": 614,
+        "generator": [
+          14967,
+          21088
+        ],
+        "label": "b10-s241",
+        "n": 937,
+        "p": 25561,
+        "seed": 241,
+        "subgroup_bits": 10
+      },
+      "online_work_to_full_rank_ratio": 0.7513416815742398,
+      "pair_audit": {
+        "exact_pair_rows_checked": 10081,
+        "group_failures": 0,
+        "row_set_mismatches": 0,
+        "subgroup_points_checked": 937
+      },
+      "preparation_work_ratio": 0.21457431457431458,
+      "quotient_online_work_to_full_rank": 840,
+      "quotient_policy": {
+        "adaptive_credit": 0,
+        "adaptive_observations": 0,
+        "adaptive_switch_rank": null,
+        "dual_initializations": 0,
+        "dual_tests": 0,
+        "final_dual_nullity": null,
+        "frontiers": [
+          {
+            "independent_relations": 10,
+            "independent_relations_per_primitive": 0.0010613457864572277,
+            "total_work_frontier": 9422,
+            "variable_work_frontier": 500
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.0013102197137673855,
+            "total_work_frontier": 9922,
+            "variable_work_frontier": 1000
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.0011902581944698773,
+            "total_work_frontier": 10922,
+            "variable_work_frontier": 2000
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.0010904210702902197,
+            "total_work_frontier": 11922,
+            "variable_work_frontier": 3000
+          }
+        ],
+        "hybrid_nullity_threshold": 4,
+        "matrix_width": 13,
+        "policy": "rank-saturated",
+        "primal_tests": 18,
+        "primitive_work": 9762,
+        "processed_targets": 2,
+        "rank": 13,
+        "rank_events": [
+          [
+            36,
+            1
+          ],
+          [
+            83,
+            2
+          ],
+          [
+            119,
+            3
+          ],
+          [
+            165,
+            4
+          ],
+          [
+            207,
+            5
+          ],
+          [
+            267,
+            6
+          ],
+          [
+            324,
+            7
+          ],
+          [
+            381,
+            8
+          ],
+          [
+            437,
+            9
+          ],
+          [
+            489,
+            10
+          ],
+          [
+            560,
+            11
+          ],
+          [
+            786,
+            12
+          ],
+          [
+            840,
+            13
+          ]
+        ],
+        "rank_saturated_targets": 1,
+        "shared_variable_work": 12,
+        "template_totals": {
+          "candidates_created": 18,
+          "canonicalized": 18,
+          "disabled": 0,
+          "pivots": 13,
+          "primitive_work": 828,
+          "unique": 18
+        },
+        "unique_rows": 18,
+        "variable_primitive_work": 840,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 2668,
+          "endomorphism": 3400,
+          "point_add": 1732,
+          "point_double": 72,
+          "scalar_add": 47,
+          "scalar_double": 141,
+          "table_probe": 1702
+        },
+        "work_to_full_rank": 9762,
+        "zero_syndromes": 0
+      },
+      "quotient_prepared": {
+        "base_size": 12,
+        "matrix_width": 13,
+        "pair_index_mode": "S2-mu6-exact-quotient",
+        "predicted_pair_representatives": 1681,
+        "preparation_primitive_work": 8922,
+        "preparation_work": {
+          "coefficient_op": 2094,
+          "endomorphism": 3394,
+          "point_add": 1681,
+          "point_double": 72,
+          "scalar_add": 0,
+          "scalar_double": 0,
+          "table_probe": 1681
+        },
+        "quotient_pair_representatives": 1681,
+        "raw_ordered_pair_entries": 20736,
+        "structural_compression_ratio": 12.335514574657942,
+        "weighted_terms": 144
+      },
+      "reference_online_work_to_full_rank": 1118,
+      "reference_policy": {
+        "adaptive_credit": 0,
+        "adaptive_observations": 0,
+        "adaptive_switch_rank": null,
+        "dual_initializations": 0,
+        "dual_tests": 0,
+        "final_dual_nullity": null,
+        "frontiers": [
+          {
+            "independent_relations": 9,
+            "independent_relations_per_primitive": 0.00021387832699619773,
+            "total_work_frontier": 42080,
+            "variable_work_frontier": 500
+          },
+          {
+            "independent_relations": 11,
+            "independent_relations_per_primitive": 0.00025833724753405356,
+            "total_work_frontier": 42580,
+            "variable_work_frontier": 1000
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.0002983019733822855,
+            "total_work_frontier": 43580,
+            "variable_work_frontier": 2000
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.00029161058770749214,
+            "total_work_frontier": 44580,
+            "variable_work_frontier": 3000
+          }
+        ],
+        "hybrid_nullity_threshold": 4,
+        "matrix_width": 13,
+        "policy": "rank-saturated",
+        "primal_tests": 20,
+        "primitive_work": 42698,
+        "processed_targets": 2,
+        "rank": 13,
+        "rank_events": [
+          [
+            34,
+            1
+          ],
+          [
+            65,
+            2
+          ],
+          [
+            114,
+            3
+          ],
+          [
+            166,
+            4
+          ],
+          [
+            208,
+            5
+          ],
+          [
+            263,
+            6
+          ],
+          [
+            341,
+            7
+          ],
+          [
+            416,
+            8
+          ],
+          [
+            473,
+            9
+          ],
+          [
+            607,
+            10
+          ],
+          [
+            701,
+            11
+          ],
+          [
+            1054,
+            12
+          ],
+          [
+            1118,
+            13
+          ]
+        ],
+        "rank_saturated_targets": 1,
+        "shared_variable_work": 6,
+        "template_totals": {
+          "candidates_created": 35,
+          "canonicalized": 35,
+          "disabled": 0,
+          "pivots": 13,
+          "primitive_work": 1112,
+          "unique": 20
+        },
+        "unique_rows": 20,
+        "variable_primitive_work": 1118,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 839,
+          "endomorphism": 36,
+          "point_add": 20788,
+          "point_double": 72,
+          "scalar_add": 48,
+          "scalar_double": 141,
+          "table_probe": 20774
+        },
+        "work_to_full_rank": 42698,
+        "zero_syndromes": 0
+      },
+      "reference_prepared": {
+        "base_size": 12,
+        "matrix_width": 13,
+        "ordered_pair_entries": 20736,
+        "preparation_primitive_work": 41580,
+        "preparation_work": {
+          "coefficient_op": 0,
+          "endomorphism": 36,
+          "point_add": 20736,
+          "point_double": 72,
+          "scalar_add": 0,
+          "scalar_double": 0,
+          "table_probe": 20736
+        },
+        "weighted_terms": 144
+      },
+      "total_work_to_full_rank_ratio": 0.22862897559604664
+    },
+    {
+      "commutative_exact_pair_rows": 10081,
+      "fixture": {
+        "b": 11,
+        "beta": 162,
+        "eigenvalue": 417,
+        "generator": [
+          17048,
+          24280
+        ],
+        "label": "b10-s251",
+        "n": 673,
+        "p": 26407,
+        "seed": 251,
+        "subgroup_bits": 10
+      },
+      "online_work_to_full_rank_ratio": 1.0375335120643432,
+      "pair_audit": {
+        "exact_pair_rows_checked": 10081,
+        "group_failures": 0,
+        "row_set_mismatches": 0,
+        "subgroup_points_checked": 673
+      },
+      "preparation_work_ratio": 0.21462241462241463,
+      "quotient_online_work_to_full_rank": 1548,
+      "quotient_policy": {
+        "adaptive_credit": 0,
+        "adaptive_observations": 0,
+        "adaptive_switch_rank": null,
+        "dual_initializations": 0,
+        "dual_tests": 0,
+        "final_dual_nullity": null,
+        "frontiers": [
+          {
+            "independent_relations": 8,
+            "independent_relations_per_primitive": 0.0008488964346349745,
+            "total_work_frontier": 9424,
+            "variable_work_frontier": 500
+          },
+          {
+            "independent_relations": 11,
+            "independent_relations_per_primitive": 0.0011084240225715438,
+            "total_work_frontier": 9924,
+            "variable_work_frontier": 1000
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.001190040278286342,
+            "total_work_frontier": 10924,
+            "variable_work_frontier": 2000
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.0010902381751090237,
+            "total_work_frontier": 11924,
+            "variable_work_frontier": 3000
+          }
+        ],
+        "hybrid_nullity_threshold": 4,
+        "matrix_width": 13,
+        "policy": "rank-saturated",
+        "primal_tests": 29,
+        "primitive_work": 10472,
+        "processed_targets": 2,
+        "rank": 13,
+        "rank_events": [
+          [
+            34,
+            1
+          ],
+          [
+            62,
+            2
+          ],
+          [
+            114,
+            3
+          ],
+          [
+            180,
+            4
+          ],
+          [
+            249,
+            5
+          ],
+          [
+            301,
+            6
+          ],
+          [
+            378,
+            7
+          ],
+          [
+            447,
+            8
+          ],
+          [
+            514,
+            9
+          ],
+          [
+            654,
+            10
+          ],
+          [
+            918,
+            11
+          ],
+          [
+            1486,
+            12
+          ],
+          [
+            1548,
+            13
+          ]
+        ],
+        "rank_saturated_targets": 1,
+        "shared_variable_work": 12,
+        "template_totals": {
+          "candidates_created": 30,
+          "canonicalized": 30,
+          "disabled": 0,
+          "pivots": 13,
+          "primitive_work": 1536,
+          "unique": 29
+        },
+        "unique_rows": 29,
+        "variable_primitive_work": 1548,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 3350,
+          "endomorphism": 3402,
+          "point_add": 1732,
+          "point_double": 72,
+          "scalar_add": 67,
+          "scalar_double": 135,
+          "table_probe": 1714
+        },
+        "work_to_full_rank": 10472,
+        "zero_syndromes": 0
+      },
+      "quotient_prepared": {
+        "base_size": 12,
+        "matrix_width": 13,
+        "pair_index_mode": "S2-mu6-exact-quotient",
+        "predicted_pair_representatives": 1681,
+        "preparation_primitive_work": 8924,
+        "preparation_work": {
+          "coefficient_op": 2094,
+          "endomorphism": 3396,
+          "point_add": 1681,
+          "point_double": 72,
+          "scalar_add": 0,
+          "scalar_double": 0,
+          "table_probe": 1681
+        },
+        "quotient_pair_representatives": 1681,
+        "raw_ordered_pair_entries": 20736,
+        "structural_compression_ratio": 12.335514574657942,
+        "weighted_terms": 144
+      },
+      "reference_online_work_to_full_rank": 1492,
+      "reference_policy": {
+        "adaptive_credit": 0,
+        "adaptive_observations": 0,
+        "adaptive_switch_rank": null,
+        "dual_initializations": 0,
+        "dual_tests": 0,
+        "final_dual_nullity": null,
+        "frontiers": [
+          {
+            "independent_relations": 8,
+            "independent_relations_per_primitive": 0.00019011406844106463,
+            "total_work_frontier": 42080,
+            "variable_work_frontier": 500
+          },
+          {
+            "independent_relations": 11,
+            "independent_relations_per_primitive": 0.00025833724753405356,
+            "total_work_frontier": 42580,
+            "variable_work_frontier": 1000
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.0002983019733822855,
+            "total_work_frontier": 43580,
+            "variable_work_frontier": 2000
+          },
+          {
+            "independent_relations": 13,
+            "independent_relations_per_primitive": 0.00029161058770749214,
+            "total_work_frontier": 44580,
+            "variable_work_frontier": 3000
+          }
+        ],
+        "hybrid_nullity_threshold": 4,
+        "matrix_width": 13,
+        "policy": "rank-saturated",
+        "primal_tests": 23,
+        "primitive_work": 43072,
+        "processed_targets": 2,
+        "rank": 13,
+        "rank_events": [
+          [
+            32,
+            1
+          ],
+          [
+            60,
+            2
+          ],
+          [
+            100,
+            3
+          ],
+          [
+            156,
+            4
+          ],
+          [
+            234,
+            5
+          ],
+          [
+            309,
+            6
+          ],
+          [
+            375,
+            7
+          ],
+          [
+            441,
+            8
+          ],
+          [
+            514,
+            9
+          ],
+          [
+            579,
+            10
+          ],
+          [
+            729,
+            11
+          ],
+          [
+            1439,
+            12
+          ],
+          [
+            1492,
+            13
+          ]
+        ],
+        "rank_saturated_targets": 1,
+        "shared_variable_work": 6,
+        "template_totals": {
+          "candidates_created": 43,
+          "canonicalized": 43,
+          "disabled": 0,
+          "pivots": 13,
+          "primitive_work": 1486,
+          "unique": 23
+        },
+        "unique_rows": 23,
+        "variable_primitive_work": 1492,
+        "verification_failures": 0,
+        "work": {
+          "coefficient_op": 1247,
+          "endomorphism": 36,
+          "point_add": 20787,
+          "point_double": 72,
+          "scalar_add": 39,
+          "scalar_double": 109,
+          "table_probe": 20782
+        },
+        "work_to_full_rank": 43072,
+        "zero_syndromes": 0
+      },
+      "reference_prepared": {
+        "base_size": 12,
+        "matrix_width": 13,
+        "ordered_pair_entries": 20736,
+        "preparation_primitive_work": 41580,
+        "preparation_work": {
+          "coefficient_op": 0,
+          "endomorphism": 36,
+          "point_add": 20736,
+          "point_double": 72,
+          "scalar_add": 0,
+          "scalar_double": 0,
+          "table_probe": 20736
+        },
+        "weighted_terms": 144
+      },
+      "total_work_to_full_rank_ratio": 0.24312778603268945
+    }
+  ],
+  "experiment": "SageMath exact S2 x mu6 weighted-OWIC pair quotient",
+  "held_out": true,
+  "promotion_gate": {
+    "passed": true,
+    "verdict": "PROMOTE"
+  },
+  "sage_version": "10.7",
+  "target_count": 64,
+  "variable_work_budget": 3000
+}
