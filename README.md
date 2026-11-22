@@ -63,3 +63,7 @@ stay reproducible. Summaries in `results/` predate the rename.
 4. **Summation polynomials.** Replace the pair table with `S_3` root
    finding over `F_p`. Predicted: the decomposition probability is unchanged,
    so there is no asymptotic gain.
+
+## License
+
+Apache License 2.0, see [`LICENSE`](LICENSE).
